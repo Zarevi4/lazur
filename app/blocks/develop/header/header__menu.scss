@@ -1,0 +1,113 @@
+.header {
+	&__col {
+		display: flex;
+		align-items: center;
+		&_menubtn {
+			padding: 47px;
+			@media screen and (max-width: 1199px) {
+				padding: 24px 20px;
+			}
+			@media screen and (max-width: 768px) {
+				padding: 13px 10px;
+			}
+			a {
+				text-decoration: none;
+				i {
+					color: #fff;
+				}
+			}
+			&_active {
+				background-color: #1e45a1;
+			}
+		}
+		&_open {
+			@media screen and (max-width: 1199px) {
+				background-color: #1e45a1;
+				padding: 24px 20px;
+			}
+			@media screen and (max-width: 768px) {
+				padding: 13px 10px;
+			}
+		}
+		&_close {
+			i {
+				font-size: 26px;
+			}
+		}
+	}
+    &__menu {
+		background-image: url(img/nav-bg.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 1001;
+		&__inner {
+			flex-wrap: wrap;
+			align-items: flex-start;
+			height: 100%;
+		}
+	}
+	&__nav {
+		width: 100%;
+		height: calc(100% - 115px);
+		overflow: auto;
+		@media screen and (max-width: 768px) {
+			height: calc(100% - 40px);
+		}
+		&__inner {
+			max-width: 1280px;
+			margin: 0 auto;
+		}
+	}
+}
+.nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 130px;
+	margin-left: 0;
+	padding: 0 15px;
+	@media screen and (max-width: 1199px) {
+		margin-top: 30px;
+		padding: 0 20px;
+	}
+	&__item {
+		flex: 0 0 30%;
+		width: auto;
+		font-size: 32px;
+		margin: 20px 0;
+		list-style: none;
+		@media screen and (max-width: 1199px) {
+			font-size: 20px;
+			margin: 10px 0;
+		}
+		@media screen and (max-width: 768px) {
+			flex: 0 0 100%;
+			margin: 5px 0;
+			font-size: 18px;
+		}
+		a {
+			color: #fff;
+			text-decoration: none;
+		}
+		&_active {
+			font-weight: 700;
+			a {
+				display: inline-block;
+				&:after {
+					content: '';
+					display: block;
+					margin-top: 5px;
+					width: 100%;
+					border-bottom: 4px solid #1e45a1;
+				}
+			}
+		}
+	}
+}

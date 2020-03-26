@@ -22,12 +22,12 @@ module.exports = {
 		autoprefixer: [ 'last 3 versions', 'ie 10', 'ie 11' ],
 	},
 
-	autoCreate: {
-		onlyOnWatch: true,
-		files: [ '.scss' ],
-		levels: [ 'develop' ],
-		ignoreNodes: [ 'symbol', /_no_js/i ],
-	},
+	// autoCreate: {
+	// 	onlyOnWatch: false,
+	// 	files: [ '.scss' ],
+	// 	levels: [ 'develop' ],
+	// 	ignoreNodes: [ 'symbol', /_no_js/i ],
+	// },
 
 	dist: {
 		styles: 'styles',
@@ -49,6 +49,10 @@ module.exports = {
 		windows: false,
 		yandex: false,
 	},
+	levels: {
+		common: 1, // first from here
+		develop: 2, // then from here
+	  },
 
 	HTMLBeautify: {
 		preserve_newlines: false,

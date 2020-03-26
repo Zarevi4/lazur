@@ -1,0 +1,16 @@
+h1.heading {
+    font-size: 82px;
+    margin: 0;
+    @media screen and (max-width: 1199px) {
+        font-size: 44px;
+        text-shadow: 1px 1px 0 rgba(#000, 0.4);
+    }
+}
+.heading {
+    &_white {
+        color:#fff;
+    }
+    &_center {
+        text-align: center;
+    }
+}

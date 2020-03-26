@@ -1,0 +1,94 @@
+.banner {
+    position: relative;
+    &__image {
+        img {
+            width: 100%;
+            min-height: 300px;
+            object-fit: cover;
+        }
+    }
+    &__inner {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    &__title {
+        max-width: 900px;
+        position: relative;
+        top: 30%;
+        margin: 0 auto;
+        @media screen and (max-width: 1199px) {
+            max-width: 430px;
+        }
+    }
+    &__heading {
+        &:after {
+            content: '';
+            display: block;
+            margin: 40px auto 0;
+            width: 97px;
+            height: 1px;
+            background-color: #fff;
+            @media screen and (max-width: 1199px) {
+                margin-top: 27px;
+            }
+            @media screen and (max-width: 768px) {
+                margin-top: 20px;
+            }
+        }
+    }
+    &__info {
+        position: absolute;
+        right: 40px;
+        top: 150px;
+        @media screen and (max-width: 1199px) {
+            top: 90px;
+            right: 14px;
+        }
+        @media screen and (max-width: 768px) {
+			display: none;
+		}
+        &__item {
+            padding: 30px 5px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            max-width: 170px;
+            @media screen and (max-width: 1199px) {
+                font-size: 15px;
+                max-width: 140px;
+                padding: 15px 5px;
+            }
+            i {
+                margin-right: 10px;
+                font-size: 38px;
+            }
+            &_virtual {
+                i {
+                    font-size: 42px;
+                }
+            }
+            &_underline {
+                border-bottom: 1px solid rgba(#fff, 0.4);
+            }
+        }
+        
+    }
+}
+.temp {
+    font-size: 38px;
+    line-height: 1;
+    @media screen and (max-width: 1199px) {
+        font-size: 32px;
+    }
+    &__smaller {
+        font-size: 18px;
+        @media screen and (max-width: 1199px) {
+            font-size: 16px;
+        }
+    }
+}

@@ -1,5 +1,103 @@
 .header {
 	display: block;
-	background-color: #fff;
-	padding: 30px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	color: #fff;
+	transition: background-color 0.6s;
+	&__fix {
+		background-color: rgba(#000, 0.4);
+	}
+	@media screen and (max-width: 1199px) {
+		background-color: #fff;
+	}
+	&__inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__left {
+		i {
+			font-size: 21px;
+		}
+	}
+	&__right {
+		@media screen and (max-width: 768px) {
+			flex: 2 1 auto;
+			justify-content: space-between;
+		}
+	}
+	&__switcher {
+		padding: 0 34px;
+		@media screen and (max-width: 768px) {
+			padding: 0;
+		}
+	}
+	&__search {
+		color: #fff;
+		@media screen and (max-width: 1199px) {
+			color: #383a4b;
+			padding: 0 20px;
+		}
+		@media screen and (max-width: 768px) {
+			i {
+				font-size: 16px;
+			}
+		}
+	}
+}
+.phone {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+	a {
+		display: block;
+		font-size: 18px;
+		text-decoration: none;
+		color: #fff;
+		@media screen and (max-width: 1199px) {
+			color: #383a4b;
+			font-size: 16px;
+		}
+		@media screen and (max-width: 768px) {
+			color: #383a4b;
+			font-size: 16px;
+		}
+	}
+}
+.switcher {
+	&__item {
+		font-size: 18px;
+		text-decoration: none;
+		padding: 0 24px;
+		color: rgba(#fff, 0.4);
+		@media screen and (max-width: 1199px) {
+			padding: 0 7px;
+			font-size: 15px;
+			color: rgba(#383a4b, 0.4);
+		}
+		&_active {
+			color: #fff;
+			@media screen and (max-width: 1199px) {
+				color: #383a4b;
+			}
+		}
+	}
+}
+.logo {
+	@media screen and (max-width: 1199px) {
+		padding-right: 20px;
+	}
+	&__dec {
+		@media screen and (max-width: 1199px) {
+			display: none;
+		}
+	}
+	&__mob {
+		@media screen and (min-width: 1199px) {
+			display: none;
+		}
+	}
 }
