@@ -1,0 +1,94 @@
+.sl-leftside {
+    &__button {
+        margin-top: 40px;
+        @media screen and (max-width: 1199px) {
+            margin-top: 20px;
+            margin-bottom: -40px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+    &__item {
+        position: relative;
+        transition: height 0s;
+        @media screen and (max-width: 1199px) {
+            padding-bottom: 20px;
+        }
+        @media screen and (max-width: 768px) {
+            &.slick-slide {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
+        &:not(.slick-active) img {
+            height: 500px;
+            object-fit: cover;
+            width: auto;
+            margin-left: auto;
+            @media screen and (max-width: 1199px) {
+                height: auto;
+            }
+        }
+        &_image {
+            max-width: 72%;
+            min-width: 540px;
+            width: 100%;
+            margin-left: auto;
+            img {
+                width: 100%;
+                @media screen and (min-width: 1199px) {
+                    height: 640px;
+                    object-fit: cover;
+                }
+            }
+            @media screen and (max-width: 768px) {
+                max-width: 100%;
+                min-width: initial;
+            }
+        }
+        &_feature {
+            position: absolute;
+            top: 30px;
+            left: 0;
+            @media screen and (max-width: 1199px) {
+                top: auto;
+                bottom: 0;
+            }
+            @media screen and (max-width: 768px) {
+                position: relative;
+            }
+        }
+    }
+    .slick-list {
+        padding-left: 11.97%;
+        @media screen and (max-width: 1199px) {
+            padding-left: 0;
+        }
+    }
+    &__arrows {
+        position: absolute;
+        left: 5.72%;
+        bottom: 20px;
+        z-index: 100;
+        @media screen and (max-width: 1199px) {
+            left: 100px;
+            bottom: -70px;
+        }
+    }
+    &__pagination {
+        position: absolute;
+        bottom: 26px;
+        left: 28.12%;
+        z-index: 100;
+        @media screen and (max-width: 1199px) {
+            left: auto;
+            right: 20px;
+            bottom: -40px;
+        }
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+}

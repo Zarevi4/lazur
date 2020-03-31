@@ -40,6 +40,11 @@
 .icon-arrow-left:before {
   content: "\e903";
 }
+.icon-arrow-right:before {
+  content: "\e903";
+  display: inline-block;
+  transform: rotate(-180deg);
+}
 .icon-star:before {
   content: "\e904";
   color: #ed8a19;

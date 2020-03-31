@@ -1,0 +1,40 @@
+.slick-arrows {
+    display: flex;
+    align-items: center;
+        i {
+            color: #89898d;
+        }
+        button {
+            position: relative;
+            border: none;
+            background: none;
+            padding: 30px;
+            cursor: pointer;
+            @media screen and (max-width: 1199px) {
+                padding: 10px 25px;
+            }
+            &:first-child {
+                &:after {
+                    content: '';
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto 0;
+                    height: 30px;
+                    width: 1px;
+                    background-color: #c4c4c6;
+                    display: block;
+                    @media screen and (max-width: 1199px) {
+                        height: 20px;
+                    }
+                }
+            }
+            &:last-child {
+                margin-top: 1px;
+            }
+        }
+        .icon-arrow-right {
+            margin-top: 1px;
+        }
+}

@@ -1,3 +1,28 @@
 .gutters {
     padding: 0 15px;
+    &__right {
+        padding-right: 6.25%;
+        @media screen and (max-width: 1199px) {
+            padding-right: 0;
+        }
+    }
+    &__left {
+        padding-left: 6.25%;
+        @media screen and (max-width: 1199px) {
+            padding-left: 0;
+        }
+    }
+    &__md {
+        @media screen and (max-width: 1199px) {
+            padding: 0 20px;
+            &.rightside {
+                padding-right: 0;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            &.rightside {
+                padding-right: 15px;
+            }
+        }
+    }
 }

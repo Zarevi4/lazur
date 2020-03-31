@@ -1,0 +1,17 @@
+.hidden {
+    &_xs {
+        @media screen and (max-width: 768px) {
+            display: none!important;
+        }
+    }
+    &_lg {
+        @media screen and (min-width: 768px) {
+            display: none!important;
+        }
+    }
+    &_md {
+        @media screen and (max-width: 1199px) {
+			display: none!important;
+		}
+    }
+}

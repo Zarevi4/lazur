@@ -16,6 +16,11 @@ module.exports = {
 		import: [ 'slick.css' ], // this file will be imported into the common bundle
 		},
 		{
+			from: 'node_modules/js-datepicker/dist', // get slick from node_modules
+			inject: [ 'datepicker.min.js' ], // this file will be used on the page separately
+			import: [ 'datepicker.min.css' ], // this file will be imported into the common bundle
+			},
+		{
 			import: 'normalize.css',
 			import: 'icomoon/style.css'
 		}

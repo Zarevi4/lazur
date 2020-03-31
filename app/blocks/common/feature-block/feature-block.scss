@@ -1,0 +1,90 @@
+.feature-block {
+    padding: 40px;
+    max-width: 680px;
+    width: 100%;
+    background-color: #fff;
+    @media screen and (max-width: 1199px) {
+        padding: 20px;
+    }
+    &__inner {
+        position: relative;
+        border: 1px solid #d0ccc9;
+        text-align: center;
+        &_small {
+            padding: 20px 30px;
+            @media screen and (max-width: 1199px) {
+                padding: 20px 10px;
+            }
+        }
+    }
+    &_leftside {
+        max-width: 560px;
+        @media screen and (max-width: 1199px) {
+            max-width: 330px;
+        }
+        @media screen and (max-width: 768px) {
+            max-width: 100%;
+            padding: 15px 0;
+        }
+    }
+    &_rightside {
+        max-width: 610px;
+        @media screen and (max-width: 1199px) {
+            max-width: 45%;
+            min-width: 300px;
+            p {
+                margin-bottom: 30px;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            max-width: 100%;
+            padding: 15px;
+            min-width: initial;
+        }
+    }
+    &_banner {
+        max-width: 680px;
+        margin: 0 auto;
+        @media screen and (max-width: 1199px) {
+            max-width: 400px;
+            padding-bottom: 40px;
+        }
+        @media screen and (max-width: 768px) {
+            padding-bottom: 40px;
+        }
+    }
+    &__head {
+        font-size: 20px;
+        color: #4ab0f0;
+        font-family: 'Georgia It';
+        &_banner {
+            margin-bottom: 20px;
+        }
+    }
+    &__button {
+        &_wrap {
+            display: inline-flex;
+            padding: 0 10px;
+            background-color: #fff;
+        }
+    }
+    &__buttons {
+        margin-left: -5px;
+        margin-right: -5px;
+        position: relative;
+        z-index: 100;
+        @media screen and (max-width: 1199px) {
+            margin-left: -15px;
+            margin-right: -15px;
+            margin-top: -14px;
+            margin-bottom: -21px;
+            display: flex;
+            a {
+                flex: 1 1 auto;
+            }
+        }
+        a {
+            margin: 0 5px;
+        }
+    }
+}

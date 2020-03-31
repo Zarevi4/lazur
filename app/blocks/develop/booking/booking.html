@@ -1,37 +1,45 @@
 <div class="booking">
     <div class="container gutters">
-        <div class="booking__iner">
+        <div class="booking__inner">
             <div class="booking-form">
                 <div class="booking-form__item booking-form__item_bron">
                     <span>Бронирование номеров</span>
-                    <em>Гарантированное заселение</em>
+                    <span class="garant">Гарантированное заселение</span>
                 </div>
                 <div class="booking-form__item">
-                    <div class="booking-form__item__wrap">
-                        <label for="">Заезд</label>
-                        <input type="text" placeholder="11.12.2019">
+                    <div class="booking-form__item__wrap booking-form__item__wrap_calendar">
+                        <label>
+                            <span>Заезд</span>
+                            <input type="text" class="start" placeholder="11.12.2019">
+                        </label>
                     </div>
                 </div>
                 <div class="booking-form__item">
-                    <div class="booking-form__item__wrap">
-                        <label for="">Выезд</label>
-                        <input type="text" placeholder="11.12.2019">
+                    <div class="booking-form__item__wrap booking-form__item__wrap_calendar">
+                        <label>
+                            <span>Выезд</span>
+                            <input type="text" class="end" placeholder="11.12.2019">
+                        </label>
                     </div>
                 </div>
                 <div class="booking-form__item">
-                    <div class="booking-form__item__wrap">
-                        <label for="">Гости</label>
-                        <input type="number" placeholder="1">
+                    <div class="booking-form__item__wrap booking-form__item__wrap_guest">
+                        <label>
+                            <span>Гости</span>
+                            <input type="number" placeholder="1">
+                        </label>
                     </div>
                 </div>
                 <div class="booking-form__item">
-                    <div class="booking-form__item__wrap">
-                        <label for="">Специальные</label>
-                        <input type="text" placeholder="Тарифы">
+                    <div class="booking-form__item__wrap booking-form__item__wrap_special">
+                        <label>
+                            <span>Специальные</span>
+                            <input type="text" placeholder="Тарифы">
+                        </label>
                     </div>
                 </div>
-                <div class="booking-form__item">
-                    <input type="submit" value="Найти номер">
+                <div class="booking-form__item booking-form__item_btn">
+                    <input type="submit" class="button booking__button button_blue button_large" value="Найти номер">
                 </div>
             </div>
         </div>

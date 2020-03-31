@@ -2,4 +2,20 @@
     max-width: 1680px;
     width: 100%;
     margin: 0 auto;
+    &__pad {
+        position: relative;
+        max-width: 1710px;
+        padding: 0 15px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    &_common {
+        padding-top: 120px;
+        @media screen and (max-width: 1199px) {
+            padding-top: 70px;
+        }
+        @media screen and (max-width: 768px) {
+            padding-top: 40px;
+        }
+    }
 }

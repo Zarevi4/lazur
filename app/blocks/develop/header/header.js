@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
 	});
 	var
 		$window = $(window),
-		$target = $(".header"),
+		$target = $(".content"),
 		$fixed = $target.offset().top;
 		$window.on('scroll', function(){
 			var scrollTop = window.pageYOffset || document.documentElement.scrollTop;

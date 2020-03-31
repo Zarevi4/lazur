@@ -24,10 +24,40 @@
 
 			<main class="content">
 				@@include( 'develop/banner/banner.html', {
-					"banner": "@app/img/home-slide.jpg"
+					"banner": "@app/img/home-slide.jpg",
+					"title": "Выбирайте лучшее в Сочи"
 				})
 
 				@@include( 'develop/booking/booking.html')
+				<div class="section section_line gutters__right">
+					@@include( 'develop/sl-leftside/sl-leftside.html')
+				</div>
+				@@include( 'develop/feature-banner/feature-banner.html')
+				<div class="section section_apartment gutters__left section__pdlg">
+					<div class="section-hedsingle  section-hedsingle_left section-hedsingle_white">Номера</div>
+					@@include( 'develop/sl-rightside/sl-rightside.html')
+				</div>
+				<div class="section section_services">
+					<div class="container__pad">
+						<h2 class="heading heading_center heading_h2 hidden_lg">Наши услуги</h2>
+						@@include( 'develop/services/services.html')
+					</div>
+				</div>
+				<div class="section section_line section_reviews">
+					<div class="container__pad">
+						@@include( 'develop/reviews/reviews.html')
+					</div>
+				</div>
+				<div class="section section_linebt">
+					<div class="container__pad container_common">
+						<div class="section-hedsingle  section-hedsingle_news section-hedsingle_top">Новости</div>
+						<div class="news__more">
+							<h2 class="heading_h2">Новости и события</h2>
+							<a href="#"><span>ВСЕ НОВОСТИ</span> <i class="icon-arrow-right"></i></a>
+						</div>
+						@@include( 'develop/news/news.html')
+					</div>
+				</div>
 				<div class="app__layout">
 					<div class="content__cards">
 						
@@ -38,6 +68,7 @@
 			@@include( 'develop/footer/footer.html' )
 
 		</div>
+		<script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
 		<!-- BEMGO:scripts -->
 	</body>
 </html>

@@ -6,11 +6,117 @@ h1.heading {
         text-shadow: 1px 1px 0 rgba(#000, 0.4);
     }
 }
+h1 {
+    font-size: 82px;
+    margin: 0;
+    @media screen and (max-width: 1199px) {
+        font-size: 44px;
+        text-shadow: 1px 1px 0 rgba(#000, 0.4);
+    }
+}
+h2 {
+    font-size: 58px;
+    color: #89898d;
+    margin: 0;
+    @media screen and (max-width: 1199px) {
+        font-size: 34px;
+    }
+}
+h3 {
+    font-size: 32px;
+    color: #fff;
+    @media screen and (max-width: 1199px) {
+        font-size: 22px;
+    }
+}
+h4 {
+    font-size: 28px;
+    color: #89898d;
+    margin-top: 0;
+    @media screen and (max-width: 1199px) {
+        font-size: 22px;
+    }
+}
 .heading {
     &_white {
         color:#fff;
     }
+    &_grey {
+        color: #89898d;
+    }
     &_center {
         text-align: center;
+    }
+    &__h1 {
+        font-size: 82px;
+        margin: 0;
+        @media screen and (max-width: 1199px) {
+            font-size: 44px;
+            text-shadow: 1px 1px 0 rgba(#000, 0.4);
+        }
+    }
+    &_h2 {
+        font-size: 58px;
+        color: #89898d;
+        margin: 0;
+        @media screen and (max-width: 1199px) {
+            font-size: 34px;
+            margin-bottom: 20px;
+        }
+    }
+    &_h3 {
+        font-size: 32px;
+        color: #fff;
+        @media screen and (max-width: 1199px) {
+            font-size: 22px;
+        }
+    }
+    &_feature {
+        margin-bottom: 30px;
+        &:after {
+            content: '';
+            width: 78px;
+            height: 1px;
+            background-color: #c4c4c6;
+            display: block;
+            margin: 20px auto 0;
+            @media screen and (max-width: 1199px) {
+                margin: 10px auto 0;
+            }
+        }
+        @media screen and (max-width: 1199px) {
+            margin-bottom: 10px;
+        }
+    }
+    &_underline {
+        margin-bottom: 30px;
+        &:after {
+            content: '';
+            width: 78px;
+            height: 1px;
+            background-color: #c4c4c6;
+            display: block;
+            margin: 20px 0 0;
+            @media screen and (max-width: 1199px) {
+                margin: 10px auto 0;
+            }
+        }
+        @media screen and (max-width: 1199px) {
+            margin-bottom: 20px;
+        }
+    }
+    &_services {
+        margin-bottom: 0;
+        &:after {
+            content: '';
+            width: 48px;
+            height: 1px;
+            background-color: #c4c4c6;
+            display: block;
+            margin: 10px 0 0;
+            @media screen and (max-width: 1199px) {
+                display: none;
+            }
+        }
     }
 }

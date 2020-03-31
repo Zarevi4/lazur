@@ -1,0 +1,9 @@
+.slick-dots {
+    li {
+        list-style: none;
+        &.slick-active {
+            background-color: #1e45a1;
+            }
+    }
+    
+}

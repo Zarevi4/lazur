@@ -1,0 +1,142 @@
+.section {
+    position: relative;
+    overflow: hidden;
+    &_line {
+        &:after {
+            content: '';
+            width: 1px;
+            height: 70px;
+            display: block;
+            margin: 47px auto;
+            background-color: #c4c4c6;
+            @media screen and (max-width: 1199px) {
+                margin: 15px auto 40px;
+                height: 36px;
+            }
+            @media screen and (max-width: 768px) {
+                margin: 15px auto 15px;
+            }
+        }
+        &:before {
+            content: '';
+            width: 1px;
+            height: 70px;
+            display: block;
+            margin: 47px auto;
+            background-color: #c4c4c6;
+            @media screen and (max-width: 1199px) {
+                margin: 20px auto;
+                height: 36px;
+            }
+        }
+    }
+    &_linebt {
+        &:after {
+            content: '';
+            width: 1px;
+            height: 70px;
+            display: block;
+            margin: 47px auto;
+            background-color: #c4c4c6;
+            @media screen and (max-width: 1199px) {
+                margin: 15px auto 40px;
+                height: 36px;
+            }
+            @media screen and (max-width: 768px) {
+                margin: 15px auto 15px;
+            }
+        }
+    }
+    &__pd {
+        padding: 120px 0;
+        @media screen and (max-width: 1199px) {
+            padding: 36px 0;
+        }
+        @media screen and (max-width: 768px) {
+            padding: 50px 0;
+        }
+    }
+    &__pdlg {
+        padding-top: 240px;
+        padding-bottom: 160px;
+        margin-top: 5px;
+        @media screen and (max-width: 1199px) {
+            padding-top: 140px;
+            padding-bottom: 105px;
+        }
+        @media screen and (max-width: 768px) {
+            padding-top: 130px;
+            padding-bottom: 42px;
+        }
+    }
+    &_apartment {
+        background-image: url(img/apartment.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        &:after {
+            content: '';
+            width: 1px;
+            height: 70px;
+            display: block;
+            position: absolute;
+            bottom: -35px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            background-color: #c4c4c6;
+            @media screen and (max-width: 1199px) {
+                bottom: 32px;
+                height: 36px;
+            }
+            @media screen and (max-width: 768px) {
+                bottom: -18px;
+            }
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            top: 60px;
+            left: 0;
+            right: 0;
+            width: 1px;
+            height: 70px;
+            display: block;
+            margin: 0 auto;
+            background-color: #c4c4c6;
+            @media screen and (max-width: 1199px) {
+                top: 17px;
+                height: 36px;
+            }
+        }
+    }
+    &_services {
+        padding-top: 166px;
+        @media screen and (max-width: 1199px) {
+            padding-top: 50px;
+        }
+    }
+    &_reviews {
+        position: relative;
+        background: url(assets/reviews-bg.png) no-repeat bottom 90px right;
+        @media screen and (max-width: 1199px) {
+            padding-top: 145px;
+            &:before {
+                top: 20px;
+                left: 0;
+                right: 0;
+                position: absolute;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            padding-top: 90px;
+            &:before {
+                top: 0;
+                margin-top: 0;
+            }
+            &:after {
+                margin-top: 22px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

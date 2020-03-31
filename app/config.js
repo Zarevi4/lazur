@@ -7,7 +7,7 @@
 module.exports = {
 
 	app: {
-		name: 'Demo',
+		name: 'Лазурная',
 	},
 
 	use: {
@@ -20,14 +20,9 @@ module.exports = {
 		imagemin: [ 'png', 'jpg' ],
 		sourcemaps: [ 'js', 'css' ],
 		autoprefixer: [ 'last 3 versions', 'ie 10', 'ie 11' ],
+		mainLevel: 'develop',
+		babel: true
 	},
-
-	// autoCreate: {
-	// 	onlyOnWatch: false,
-	// 	files: [ '.scss' ],
-	// 	levels: [ 'develop' ],
-	// 	ignoreNodes: [ 'symbol', /_no_js/i ],
-	// },
 
 	dist: {
 		styles: 'styles',
@@ -50,8 +45,8 @@ module.exports = {
 		yandex: false,
 	},
 	levels: {
-		common: 1, // first from here
-		develop: 2, // then from here
+		common: 1, 
+		develop: 2,
 	  },
 
 	HTMLBeautify: {

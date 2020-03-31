@@ -1,0 +1,189 @@
+.booking {
+    margin-top: -160px;
+    margin-bottom: 82px;
+    z-index: 100;
+    position: relative;
+    color: #fff;
+    @media screen and (max-width: 1199px) {
+        margin-top: 0;
+        margin-bottom: 0;
+        .gutters {
+            padding: 0;
+        }
+    }
+    &__inner {
+        background-color: rgba(#282828, 0.4);
+        @media screen and (max-width: 1199px) {
+            background-color: #7e7e7e;
+        }
+    }
+    &__button {
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+}
+
+.booking-form {
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    @media screen and (max-width: 1199px) {
+        padding: 15px;
+    }
+    @media screen and (max-width: 768px) {
+        flex-wrap: wrap;
+        padding: 15px 10px;
+    }
+    &__item {
+        padding: 0 10px;
+        flex: 1 1 auto;
+        &_bron {
+            flex: 2 1 auto;
+            padding: 0 35px 0 24px;
+            @media screen and (max-width: 1199px) {
+                display: none;
+            }
+            span {
+                font-size: 27px;
+                white-space: nowrap;
+                display: block;
+                font-family: 'Georgia';
+                @media screen and (max-width: 1450px) {
+                    font-size: 18px;
+                }
+            }
+            .garant {
+                font-size: 16px;
+                color: #afafaf;
+                font-family: 'Georgia It';
+                @media screen and (max-width: 1450px) {
+                    font-size: 12px;
+                }
+            }
+        }
+        @media screen and (max-width: 768px) {
+            width: 50%;
+        }
+        &_btn {
+            padding: 0 40px 0 32px;
+            @media screen and (max-width: 1450px) {
+                padding: 0 15px;
+            }
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
+        }
+        @media screen and (max-width: 1199px) {
+            padding: 0 5px;
+        }
+        
+        &__wrap {
+            position: relative;
+            border: 1px solid #4c4c4c;
+            border-radius: 2px;
+            max-width: 220px;
+            @media screen and (max-width: 768px) {
+                max-width: 100%;
+                margin-bottom: 6px;
+            }
+            &:after {
+                color: #4698ce;
+                position: absolute;
+                font-size: 20px;
+                top: 30%;
+                right: 20px;
+                font-family: 'icomoon';
+                @media screen and (max-width: 1199px) {
+                    right: 10px;
+                    font-size: 16px;
+                    top: 25%;
+                }
+            }
+            &_calendar {
+                &:after {
+                    content: '\e909';
+                }
+            }
+            &_guest {
+                &:after {
+                    content: '\e90a';
+                }
+            }
+            &_special {
+                &:after {
+                    content: '\e916';
+                    font-size: 22px;
+                    @media screen and (max-width: 1199px) {
+                        font-size: 18px;
+                    }
+                }
+            }
+            /* Chrome, Safari, Edge, Opera */
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+            }
+
+            /* Firefox */
+            input[type=number] {
+            -moz-appearance: textfield;
+            }
+        }
+    }
+    label {
+        display: block;
+        padding: 10px 14px 9px;
+        color: #afafaf;
+        font-family: 'Proxima Reg';
+        @media screen and (max-width: 1199px) {
+            padding: 1.5px 14px;
+        }
+        @media screen and (max-width: 768px) {
+            padding: 1.5px 5px;
+        }
+        span {
+            font-size: 13px;
+            @media screen and (max-width: 1199px) {
+                font-size: 12px;
+            }
+        }
+    }
+    input {
+        font-family: 'Proxima Light';
+    }
+    input:not([type="submit"]) {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+        font-weight: 300;
+        color: #fff;
+        @media screen and (max-width: 1450px) {
+            font-size: 16px;
+        }
+        @media screen and (max-width: 1199px) {
+            font-size: 16px;
+            line-height: 0.8;
+        }
+    }
+    ::-webkit-input-placeholder { /* Edge */
+        color: #fff;
+      }
+      
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #fff;
+      }
+    ::-moz-placeholder { /* Internet Explorer 10-11 */
+        color: #fff;
+        opacity: 1;
+      }
+      
+    ::placeholder {
+        color: #fff;
+    }
+    input:focus::-webkit-input-placeholder { color:transparent; } 
+    input:focus::-moz-placeholder { color:transparent; } 
+    input:focus::-ms-input-placeholder { color:transparent; }
+}

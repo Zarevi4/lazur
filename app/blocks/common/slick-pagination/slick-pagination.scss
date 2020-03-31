@@ -1,0 +1,14 @@
+.slick-pagination {
+    font-size: 22px;
+    color: #757575;
+    @media screen and (max-width: 1199px) {
+        font-size: 21px;
+    }
+    span {
+        font-size: 54px;
+        font-weight: 700;
+        @media screen and (max-width: 1199px) {
+            font-size: 34px;
+        }
+    }
+}
