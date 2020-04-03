@@ -35,6 +35,7 @@ img {
 p {
 	font-family: 'Proxima Light';
 	margin-top: 0;
+	font-size: 18px;
 	@media screen and (max-width: 1199px) {
 		font-size: 15px;
 	}
@@ -45,6 +46,14 @@ p {
 	strong {
 		font-family: 'Proxima Nova Bold';
 		color: #252525;
+	}
+}
+ul {
+	li {
+		a {
+			color: #1e45a1;
+			text-decoration: underline;
+		}
 	}
 }
 
@@ -85,5 +94,10 @@ h1, h2, h3, h4, h5, h6 {
 .text-align-right {
 	&_md {
 		text-align: right;
+	}
+}
+input, textarea, button, a {
+	&:focus {
+		outline: none;
 	}
 }

@@ -1,0 +1,32 @@
+.table {
+	font-size: 18px;
+    text-align: center;
+    &_wrap {
+        padding: 0 15px;
+        margin: 0 auto 0;
+        overflow: auto;
+    }
+	th, td {
+		padding: 20px 14px;
+		text-align: center;
+		border-collapse: collapse;
+		border: 1px solid #fff;
+	}
+	th {
+		background-color: #1e45a1;
+		color: #fff;
+        width: 225px;
+        padding: 20px 14px;
+        font-family: 'Proxima Nova Bold';
+	}
+	td {
+        background-color: #f9fafc;
+        font-family: 'Proxima Light';
+	}
+	&__even {
+		td {
+			background-color: #f2f5fa;
+		}
+	}
+
+}

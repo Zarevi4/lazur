@@ -1,0 +1,33 @@
+.breadcrumbs {
+    margin: 25px 0 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    li {
+        display: inline-block;
+        position: relative;
+        padding: 0 20px;
+        margin-bottom: 0;
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+        span {
+            color: #fff;
+        }
+        &:not(:last-child) {
+            &:after {
+                content: '/';
+                display: inline-block;
+                color: #fff;
+                position: absolute;
+                right: -5px;
+            }
+        }
+        &:first-child {
+            a {
+                text-decoration: underline;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.col {
+    position: relative;
+    &_3 {
+        width: calc(100% / 3);
+        padding: 0 15px;
+        @media screen and (max-width: 1199px) {
+            width: 50%;
+        }
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+    &_9 {
+        width: calc(100% - 100% / 3);
+        padding: 0 15px;
+        @media screen and (max-width: 1199px) {
+            width: 100%;
+        }
+    }
+    &_column {
+        column-count: 2;
+        column-gap: 30px;
+        @media screen and (max-width: 768px) {
+            column-count: 1;
+            column-gap: 0px;
+        }
+    }
+    &_bg {
+        padding: 40px;
+        position: relative;
+        // background: url(img/apartment.jpg);
+        @media screen and (max-width: 768px) {
+            padding: 20px;
+        }
+        &:after {
+            content: '';
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: -120px;
+            bottom: 0;
+            background: url(img/apartment.jpg);
+            @media screen and (max-width: 768px) {
+                right: 0;
+            }
+        }
+    }
+}
