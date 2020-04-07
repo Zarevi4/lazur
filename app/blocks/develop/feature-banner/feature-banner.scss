@@ -2,4 +2,7 @@
     background-image: url(assets/feature-banner-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    &_rev {
+        background-image: url(assets/feature-banner-2.jpg);
+    }
 }

@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>Lazur</title>
+    <meta name="description" content="Simple demo app.">
+    <link rel="stylesheet" href="./styles/app.css">
+  </head>
+  <body>
+    <div class="app app_no_js">
+      <!-- BEMGO:symbol -->
+      <header class="header">
+        <div class="header__inner">
+          <div class="header__left header__col">
+            <div class="header__col_open header__col_menubtn">
+              <a href="#" class="menu-btn">
+                <i class="icon-menu"></i>
+              </a>
+            </div>
+            <div class="header__search">
+              <i class="icon-search"></i>
+            </div>
+          </div>
+          <div class="header__right header__col">
+            <div class="phone header__col_item">
+              <a href="tel:(862) 266-33-33">(862) 266-33-33</a>
+              <a href="tel:(862) 266-30-05">(862) 266-30-05</a>
+            </div>
+            <div class="switcher header__switcher">
+              <a href="#" class="switcher__item switcher__item_active">RU</a>
+              <a href="#" class="switcher__item">EN</a>
+            </div>
+            <div class="logo">
+              <a href="#">
+                <img class="logo__dec" src="./static/header/logo.jpg" alt="">
+                <img class="logo__mob" src="./static/header/logo-mob.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="header__menu header__menu_open">
+          <div class="header__inner header__menu__inner">
+            <div class="header__left header__col">
+              <div class="header__col_menubtn header__col_menubtn_active">
+                <a href="#" class="menu-btn">
+                  <i class="icon-menu"></i>
+                </a>
+              </div>
+            </div>
+            <div class="header__col">
+              <div class="header__col_close header__col_menubtn">
+                <a href="#" class="menu-close">
+                  <i class="icon-clear"></i>
+                </a>
+              </div>
+            </div>
+            <div class="header__nav">
+              <div class="header__nav__inner">
+                <ul class="nav">
+                  <li class="nav__item nav__item_active"><a href="#">Номера</a></li>
+                  <li class="nav__item"><a href="#">Коттеджи</a></li>
+                  <li class="nav__item"><a href="#">Цены</a></li>
+                  <li class="nav__item"><a href="#">Онлайн-оплата</a></li>
+                  <li class="nav__item"><a href="#">Рестораны</a></li>
+                  <li class="nav__item"><a href="#">Wellness и SPA</a></li>
+                  <li class="nav__item"><a href="#">Развлечения</a></li>
+                  <li class="nav__item"><a href="#">Номера</a></li>
+                  <li class="nav__item"><a href="#">Коттеджи</a></li>
+                  <li class="nav__item"><a href="#">Цены</a></li>
+                  <li class="nav__item"><a href="#">Онлайн-оплата</a></li>
+                  <li class="nav__item"><a href="#">Рестораны</a></li>
+                  <li class="nav__item"><a href="#">Wellness и SPA</a></li>
+                  <li class="nav__item"><a href="#">Развлечения</a></li>
+                  <li class="nav__item"><a href="#">Номера</a></li>
+                  <li class="nav__item"><a href="#">Коттеджи</a></li>
+                  <li class="nav__item"><a href="#">Цены</a></li>
+                  <li class="nav__item"><a href="#">Онлайн-оплата</a></li>
+                  <li class="nav__item"><a href="#">Рестораны</a></li>
+                  <li class="nav__item"><a href="#">Wellness и SPA</a></li>
+                  <li class="nav__item"><a href="#">Развлечения</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="content">
+        <div class="banner">
+          <div class="banner__image">
+            <img src="./static/app/img/home-slide.jpg" alt="">
+          </div>
+          <div class="banner__inner gutters">
+            <div class="banner__title">
+              <h1 class="h1 banner__heading heading heading_white heading_center">Выбирайте лучшее <br>в Сочи</h1>
+            </div>
+            <div class="banner__info">
+              <div class="banner__info__item banner__info__item_weather banner__info__item_underline">
+                <i class="icon-sun-cloud"></i>
+                <div> Сочи <div class="temp">+23<span class="temp__smaller">°C</span></div>
+                </div>
+              </div>
+              <div class="banner__info__item banner__info__item_virtual">
+                <i class="icon-360"></i>
+                <div>Виртуальный тур</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="booking">
+          <div class="container gutters">
+            <div class="booking__inner">
+              <div class="booking-form">
+                <div class="booking-form__item booking-form__item_bron">
+                  <span>Бронирование номеров</span>
+                  <span class="garant">Гарантированное заселение</span>
+                </div>
+                <div class="booking-form__item">
+                  <div class="booking-form__item__wrap booking-form__item__wrap_calendar">
+                    <label>
+                      <span>Заезд</span>
+                      <input type="text" class="start" placeholder="11.12.2019">
+                    </label>
+                  </div>
+                </div>
+                <div class="booking-form__item">
+                  <div class="booking-form__item__wrap booking-form__item__wrap_calendar">
+                    <label>
+                      <span>Выезд</span>
+                      <input type="text" class="end" placeholder="11.12.2019">
+                    </label>
+                  </div>
+                </div>
+                <div class="booking-form__item">
+                  <div class="booking-form__item__wrap booking-form__item__wrap_guest">
+                    <label>
+                      <span>Гости</span>
+                      <input type="number" placeholder="1">
+                    </label>
+                  </div>
+                </div>
+                <div class="booking-form__item">
+                  <div class="booking-form__item__wrap booking-form__item__wrap_special">
+                    <label>
+                      <span>Специальные</span>
+                      <input type="text" placeholder="Тарифы">
+                    </label>
+                  </div>
+                </div>
+                <div class="booking-form__item booking-form__item_btn">
+                  <input type="submit" class="button booking__button button_blue button_large" value="Найти номер">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section_line gutters__right">
+          <div class="wrap gutters__md leftside">
+            <div class="sl-leftside">
+              <div class="sl-leftside__item">
+                <div class="sl-leftside__item_feature feature-block feature-block_leftside">
+                  <div class="feature-block__inner feature-block__inner_small">
+                    <h2 class="heading_center heading_h2 heading_feature">Весенний Body-Бум!</h2>
+                    <p>Готовимся к весне в SPA & Wellness Lazurnaya! Посещение бассейнов, аквазоны, банного комплекса, персональные тренировки. Душ Шарко и Кедровая бочка – в подарок. </p>
+                    <div class="sl-leftside__button">
+                      <div class="feature-block__button_wrap">
+                        <a href="#" class="button button_small button_transparent">
+                          <span>узнать условия</span>
+                          <i class="icon-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sl-leftside__item_image">
+                  <img src="./static/sl-leftside/boom-slide-1.jpg" alt="">
+                </div>
+              </div>
+              <div class="sl-leftside__item">
+                <div class="sl-leftside__item_feature feature-block feature-block_leftside">
+                  <div class="feature-block__inner feature-block__inner_small">
+                    <h2 class="heading_center heading_h2 heading_feature">Весенний Body-Бум!</h2>
+                    <p>Готовимся к весне в SPA & Wellness Lazurnaya! Посещение бассейнов, аквазоны, банного комплекса, персональные тренировки. Душ Шарко и Кедровая бочка – в подарок. </p>
+                    <div class="sl-leftside__button">
+                      <div class="feature-block__button_wrap">
+                        <a href="#" class="button button_small button_transparent">
+                          <span>узнать условия</span>
+                          <i class="icon-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sl-leftside__item_image">
+                  <img src="./static/sl-leftside/boom-slide-2.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="sl-leftside__arrows slick-arrows"></div>
+            <div class="sl-leftside__pagination slick-pagination"></div>
+          </div>
+        </div>
+        <div class="feature-banner section__pd">
+          <div class="gutters__md">
+            <div class="feature-block feature-block_banner">
+              <div class="feature-block__inner feature-block__inner_small">
+                <div class="feature-block__head feature-block__head_banner">Лучший отдых на море</div>
+                <h2 class="heading_center heading_h2 heading_feature">Элитный отдых в СПА-отеле Сочи</h2>
+                <p>Отель «<a href="#">Лазурная</a>» расположен в живописном уголке на берегу Черного моря. 286 комфортабельных н омеров, шесть двухэтажных отдельно стоящих вилл, три ресторана, два кафе, два бара, ночной клуб, фитнес-центр, собственный пляж, бассейны, специальные развлекательные программы... </p>
+                <div class="sl-leftside__button feature-block__button">
+                  <div class="feature-block__button_wrap">
+                    <a href="#" class="button button_wide button_transparent">
+                      <span>подробнее</span>
+                      <i class="icon-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section_apartment gutters__left section__pdlg">
+          <div class="section-hedsingle  section-hedsingle_left section-hedsingle_white">Номера</div>
+          <div class="wrap gutters__md rightside">
+            <div class="sl-rightside">
+              <div class="sl-rightside__item">
+                <div class="sl-rightside__item_feature feature-block feature-block_rightside">
+                  <div class="feature-block__inner feature-block__inner_small">
+                    <h2 class="heading_center heading_h2 heading_feature">Стандарт</h2>
+                    <p>В отеле «<a href="#">Лазурная</a>» 214 стандартных номера. Из них 72 номера с двумя раздельными кроватями и 110 номеров с одной широкой французской кроватью. </p>
+                    <div class="sl-rightside__button feature-block__buttons">
+                      <a href="#" class="button button_wide button_transparent"> подробнее <i class="icon-arrow-right"></i>
+                      </a>
+                      <a href="#" class="button button_wide button_blue"> забронировать </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="sl-rightside__item_image">
+                  <img src="./static/sl-rightside/apart-1.jpg" alt="">
+                </div>
+              </div>
+              <div class="sl-rightside__item">
+                <div class="sl-rightside__item_feature feature-block feature-block_rightside">
+                  <div class="feature-block__inner feature-block__inner_small">
+                    <h2 class="heading_center heading_h2 heading_feature">Стандарт</h2>
+                    <p>Готовимся к весне в SPA & Wellness Lazurnaya! Посещение бассейнов, аквазоны, банного комплекса, персональные тренировки. Душ Шарко и Кедровая бочка – в подарок. </p>
+                    <div class="sl-rightside__button feature-block__buttons">
+                      <a href="#" class="button button_wide button_transparent"> подробнее <i class="icon-arrow-right"></i>
+                      </a>
+                      <a href="#" class="button button_wide button_blue"> забронировать </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="sl-rightside__item_image">
+                  <img src="./static/sl-rightside/apart-2.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="sl-rightside__arrows slick-arrows"></div>
+            <div class="sl-rightside__pagination slick-pagination"></div>
+          </div>
+        </div>
+        <div class="section section_services">
+          <div class="container__pad">
+            <h2 class="heading heading_center heading_h2 hidden_lg">Наши услуги</h2>
+            <div class="services">
+              <div class="services__maincol services__col">
+                <div class="services__item">
+                  <img class="hidden_xs" src="./static/services/services-1.jpg" alt="">
+                  <img class="hidden_lg" src="./static/services/services-1-mb.jpg" alt="">
+                  <a href="#" class="services__item__title">
+                    <h4 class="heading_white heading_h3 heading_services">Развлечение и отдых</h4>
+                  </a>
+                </div>
+              </div>
+              <div class="services__wrap">
+                <div class="services__col services__wrap__col services__wrap__col3 services__wrap_heading">
+                  <div class="services__heading">
+                    <h2 class="heading_h2">Наши услуги</h2>
+                  </div>
+                  <div class="services__item">
+                    <img src="./static/services/services-2.jpg" alt="">
+                    <a href="#" class="services__item__title">
+                      <h4 class="heading_white heading_h3 heading_services">Рестораны</h4>
+                    </a>
+                  </div>
+                </div>
+                <div class="services__col services__wrap__col services__wrap__col2">
+                  <div class="services__item">
+                    <img src="./static/services/services-5.jpg" alt="">
+                    <a href="#" class="services__item__title">
+                      <h4 class="heading_white heading_h3 heading_services">SPA & Wellness Lazurnaya</h4>
+                    </a>
+                  </div>
+                </div>
+                <div class="services__col services__wrap__col3">
+                  <div class="services__item">
+                    <img src="./static/services/services-3.jpg" alt="">
+                    <a href="#" class="services__item__title">
+                      <h4 class="heading_white heading_h3 heading_services">Банкеты</h4>
+                    </a>
+                  </div>
+                </div>
+                <div class="services__col services__wrap__col2">
+                  <div class="services__item">
+                    <img src="./static/services/services-4.jpg" alt="">
+                    <a href="#" class="services__item__title">
+                      <h4 class="heading_white heading_h3 heading_services">Бизнес-туризм</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section_line section_reviews">
+          <div class="container__pad">
+            <div class="reviews">
+              <div class="section-hedsingle section-hedsingle_grey section-hedsingle_reviews"><span>Отзывы</span>
+                <h2 class="heading_h2 heading_underline hidden_xs">О нас говорят</h2>
+              </div>
+              <h2 class="heading_h2 heading_underline heading_center hidden_lg">О нас говорят</h2>
+              <div class="reviews__slider">
+                <div class="reviews__item">
+                  <div class="images-block">
+                    <div class="images-block__wrap">
+                      <div class="images-block__bg">
+                        <img src="./static/reviews/reviews-1.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="images-block__img">
+                      <img src="./static/reviews/reviews-2.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="reviews__wrap">
+                    <p>Огромное спасибо за гостеприимство всему персоналу Отеля «Рэдиссон Лазурная»!!! Нашей семье всё очень понравилось, мы чувствовали себя как дома...!!! Везде персонал доброжелательный и отзывчивый!!! В ресторане всё вкусно, спасибо шеф-поварам!!! </p>
+                    <div class="reviews__info">
+                      <div class="reviews__name">Оксана Борисова</div>
+                      <div class="reviews__rate">
+                        <i class="icon-star"></i>
+                        <i class="icon-star"></i>
+                        <i class="icon-star"></i>
+                        <i class="icon-star"></i>
+                        <i class="icon-star"></i>
+                      </div>
+                    </div>
+                    <div class="reviews__nav">
+                      <div class="reviews__pagination slick-pagination"></div>
+                      <div class="reviews__arrows slick-arrows"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="reviews__item">
+                  <div class="images-block">
+                    <div class="images-block__wrap">
+                      <div class="images-block__bg">
+                        <img src="./static/reviews/reviews-1.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="images-block__img">
+                      <img src="./static/reviews/reviews-2.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="reviews__wrap">
+                    <p>Огромное спасибо за гостеприимство всему персоналу Отеля «Рэдиссон Лазурная»!!! Нашей семье всё очень понравилось, мы чувствовали себя как дома...!!! Везде персонал доброжелательный и отзывчивый!!! В ресторане всё вкусно, спасибо шеф-поварам!!! </p>
+                    <div class="reviews__info">
+                      <div class="reviews__name">Таня Кучеренко</div>
+                      <div class="reviews__rate">
+                        <i class="icon-star"></i>
+                        <i class="icon-star"></i>
+                        <i class="icon-star"></i>
+                        <i class="icon-star"></i>
+                        <i class="icon-star"></i>
+                      </div>
+                    </div>
+                    <div class="reviews__nav">
+                      <div class="reviews__pagination slick-pagination"></div>
+                      <div class="reviews__arrows slick-arrows">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section_linebt">
+          <div class="container__pad container_common">
+            <div class="section-hedsingle  section-hedsingle_news section-hedsingle_top">Новости</div>
+            <div class="news__more">
+              <h2 class="heading_h2">Новости и события</h2>
+              <a href="#"><span>ВСЕ НОВОСТИ</span> <i class="icon-arrow-right"></i></a>
+            </div>
+            <div class="news">
+              <div class="news__slider">
+                <div class="news__slider__item">
+                  <div class="imgtext-block">
+                    <img src="./static/news/new-1.jpg" alt="">
+                    <div class="imgtext-block__desc">
+                      <div class="imgtext-block__time">
+                        <span>05.02.2019</span>
+                      </div>
+                      <h4 class="heading_grey">Курортный сбор</h4>
+                      <p>В соответствии с ФЗ №214 от 29.07.17, Законом Краснодарского края от 27 ноября 2017 года № 3690-КЗ и Законом Краснодарского ...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="news__slider__item">
+                  <div class="imgtext-block">
+                    <img src="./static/news/new-2.jpg" alt="">
+                    <div class="imgtext-block__desc">
+                      <div class="imgtext-block__time">
+                        <span>05.02.2019</span>
+                      </div>
+                      <h4 class="heading_grey">II Всероссийская конференция «TAXI 2018. Трансформация»</h4>
+                      <p>11 и 12 октября на одной из лучших конгрессно-выставочных площадок Сочи ...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="news__slider__item">
+                  <div class="imgtext-block">
+                    <img src="./static/news/new-3.jpg" alt="">
+                    <div class="imgtext-block__desc">
+                      <div class="imgtext-block__time">
+                        <span>05.02.2019</span>
+                      </div>
+                      <h4 class="heading_grey">Курортный сбор</h4>
+                      <p>Уважаемые гости! В период с 25 мая по 26 июля в связи с проведением Чемпионата мира по футболу заселение будет ...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="app__layout">
+          <div class="content__cards">
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="footer__inner">
+            <div id="map"></div>
+          </div>
+          <div class="footer__contacts">
+            <div class="contacts">
+              <div class="contacts__info">
+                <h5>Контакты</h5>
+              </div>
+              <div class="footer__wrap">
+                <div class="footer__wrap__col contacts__info__col">
+                  <i class="icon-place"></i>
+                  <div class="contacts__info__text">
+                    <strong>ОГК «Лазурная Отель и СПА»</strong> <span>расположен по адресу: 354024, </span>
+                    <span>г. Сочи, Курортный проспект, 103.</span>
+                  </div>
+                </div>
+                <div class="footer__wrap__col contacts__info__col hidden_md">
+                  <i class="icon-ring"></i>
+                  <div class="contacts__info__text">
+                    <strong>Отдел бронирования</strong> <span>Тел: <a href="tel:(862) 266-30-35" class="phonenum">(862) 266-30-35</a>, </span>
+                    <span>266-30-69, 266-31-81 </span>
+                  </div>
+                </div>
+                <div class="footer__wrap__col contacts__info__col">
+                  <i class="icon-phone"></i>
+                  <div class="contacts__info__text">
+                    <span><a href="tel:(862) 266-33-33" class="phonenum">(862) 266-33-33</a>, <a href="tel:(862) 266-30-05" class="phonenum">(862) 266-30-05</a></span>
+                    <span>Звонок бесплатный</span>
+                  </div>
+                </div>
+                <div class="footer__wrap__col contacts__info__col hidden_md">
+                  <i class="icon-phone opacity"></i>
+                  <div class="contacts__info__text">
+                    <span>Часы работы: с 09:00 до 21:00 </span>
+                    <span>E-mail: <a href="mailto:res@lazurnaya.ru">res@lazurnaya.ru</a> </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__middle">
+          <div class="container__pad">
+            <div class="footer__middle__wrap">
+              <div class="footer__middle__inner">
+                <div class="footer__logo">
+                  <a href="#">
+                    <img src="./static/footer/logo-footer.png" alt="">
+                  </a>
+                </div>
+                <div class="footer__desc">
+                  <p>ОГК «<a href="#">Лазурная Отель и СПА</a>» расположен в живописном уголке на берегу Черного моря. 286 комфортабельных номеров, шесть двухэтажных отдельно стоящих вилл, три ресторана, два кафе, два бара, ночной клуб, фитнес-центр, собственный пляж, бассейны: всё организовано для полноценного и разнообразного отдыха гостей в условиях элитного курортного отеля. </p>
+                </div>
+              </div>
+              <div class="footer__nav">
+                <ul>
+                  <li><a href="#">Отель</a></li>
+                  <li><a href="#">Номера и цены</a></li>
+                  <li><a href="#">Рестораны</a></li>
+                  <li><a href="#">Отдых и развлечения</a></li>
+                  <li><a href="#">Бизнес-туризм</a></li>
+                  <li><a href="#">SPA & Wellness</a></li>
+                  <li><a href="#">Специальные предложения</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="container__pad">
+            <div class="footer__bottom__inner">
+              <span class="copyright">© Официальный сайт ОГК «Лазурная Отель и СПА». <span>All rights reserved.</span>
+              </span>
+              <span class="text-align-right_md">Разработка и продвижение сайта <a href="#">НПП «Корнет»</a></span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./scripts/slick.min.js"></script>
+    <script src="./scripts/datepicker.min.js"></script>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>Lazur</title>
+    <meta name="description" content="Simple demo app.">
+    <link rel="stylesheet" href="./styles/app.css">
+  </head>
+  <body>
+    <div class="app app_no_js">
+      <!-- BEMGO:symbol -->
+      <header class="header">
+        <div class="header__inner">
+          <div class="header__left header__col">
+            <div class="header__col_open header__col_menubtn">
+              <a href="#" class="menu-btn">
+                <i class="icon-menu"></i>
+              </a>
+            </div>
+            <div class="header__search">
+              <i class="icon-search"></i>
+            </div>
+          </div>
+          <div class="header__right header__col">
+            <div class="phone header__col_item">
+              <a href="tel:(862) 266-33-33">(862) 266-33-33</a>
+              <a href="tel:(862) 266-30-05">(862) 266-30-05</a>
+            </div>
+            <div class="switcher header__switcher">
+              <a href="#" class="switcher__item switcher__item_active">RU</a>
+              <a href="#" class="switcher__item">EN</a>
+            </div>
+            <div class="logo">
+              <a href="#">
+                <img class="logo__dec" src="./static/header/logo.jpg" alt="">
+                <img class="logo__mob" src="./static/header/logo-mob.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="header__menu header__menu_open">
+          <div class="header__inner header__menu__inner">
+            <div class="header__left header__col">
+              <div class="header__col_menubtn header__col_menubtn_active">
+                <a href="#" class="menu-btn">
+                  <i class="icon-menu"></i>
+                </a>
+              </div>
+            </div>
+            <div class="header__col">
+              <div class="header__col_close header__col_menubtn">
+                <a href="#" class="menu-close">
+                  <i class="icon-clear"></i>
+                </a>
+              </div>
+            </div>
+            <div class="header__nav">
+              <div class="header__nav__inner">
+                <ul class="nav">
+                  <li class="nav__item nav__item_active"><a href="#">Номера</a></li>
+                  <li class="nav__item"><a href="#">Коттеджи</a></li>
+                  <li class="nav__item"><a href="#">Цены</a></li>
+                  <li class="nav__item"><a href="#">Онлайн-оплата</a></li>
+                  <li class="nav__item"><a href="#">Рестораны</a></li>
+                  <li class="nav__item"><a href="#">Wellness и SPA</a></li>
+                  <li class="nav__item"><a href="#">Развлечения</a></li>
+                  <li class="nav__item"><a href="#">Номера</a></li>
+                  <li class="nav__item"><a href="#">Коттеджи</a></li>
+                  <li class="nav__item"><a href="#">Цены</a></li>
+                  <li class="nav__item"><a href="#">Онлайн-оплата</a></li>
+                  <li class="nav__item"><a href="#">Рестораны</a></li>
+                  <li class="nav__item"><a href="#">Wellness и SPA</a></li>
+                  <li class="nav__item"><a href="#">Развлечения</a></li>
+                  <li class="nav__item"><a href="#">Номера</a></li>
+                  <li class="nav__item"><a href="#">Коттеджи</a></li>
+                  <li class="nav__item"><a href="#">Цены</a></li>
+                  <li class="nav__item"><a href="#">Онлайн-оплата</a></li>
+                  <li class="nav__item"><a href="#">Рестораны</a></li>
+                  <li class="nav__item"><a href="#">Wellness и SPA</a></li>
+                  <li class="nav__item"><a href="#">Развлечения</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="content">
+        <div class="banner">
+          <div class="banner__image">
+            <img src="./static/app/img/numbers-slide.jpg" alt="">
+          </div>
+          <div class="banner__inner gutters">
+            <div class="banner__title">
+              <h1 class="banner__heading heading heading_white heading_center">Номера</h1>
+              <ul class="breadcrumbs">
+                <li><a href="#">Главная</a></li>
+                <li><span>Номера</span></li>
+              </ul>
+            </div>
+            <div class="banner__info">
+              <div class="banner__info__item banner__info__item_weather banner__info__item_underline">
+                <i class="icon-sun-cloud"></i>
+                <div> Сочи <div class="temp">+23<span class="temp__smaller">°C</span></div>
+                </div>
+              </div>
+              <div class="banner__info__item banner__info__item_virtual">
+                <i class="icon-360"></i>
+                <div>Виртуальный тур</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="booking">
+          <div class="container gutters">
+            <div class="booking__inner">
+              <div class="booking-form">
+                <div class="booking-form__item booking-form__item_bron">
+                  <span>Бронирование номеров</span>
+                  <span class="garant">Гарантированное заселение</span>
+                </div>
+                <div class="booking-form__item">
+                  <div class="booking-form__item__wrap booking-form__item__wrap_calendar">
+                    <label>
+                      <span>Заезд</span>
+                      <input type="text" class="start" placeholder="11.12.2019">
+                    </label>
+                  </div>
+                </div>
+                <div class="booking-form__item">
+                  <div class="booking-form__item__wrap booking-form__item__wrap_calendar">
+                    <label>
+                      <span>Выезд</span>
+                      <input type="text" class="end" placeholder="11.12.2019">
+                    </label>
+                  </div>
+                </div>
+                <div class="booking-form__item">
+                  <div class="booking-form__item__wrap booking-form__item__wrap_guest">
+                    <label>
+                      <span>Гости</span>
+                      <input type="number" placeholder="1">
+                    </label>
+                  </div>
+                </div>
+                <div class="booking-form__item">
+                  <div class="booking-form__item__wrap booking-form__item__wrap_special">
+                    <label>
+                      <span>Специальные</span>
+                      <input type="text" placeholder="Тарифы">
+                    </label>
+                  </div>
+                </div>
+                <div class="booking-form__item booking-form__item_btn">
+                  <input type="submit" class="button booking__button button_blue button_large" value="Найти номер">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section_linetop">
+          <div class="container__pad">
+            <div class="numbers">
+              <div class="numbers__image numbers__image_slider">
+                <div class="numbers__slider">
+                  <div class="numbers__slider__item">
+                    <img src="./static/numbers/numbers-1.jpg" alt="">
+                  </div>
+                  <div class="numbers__slider__item">
+                    <img src="./static/numbers/numbers-1.jpg" alt="">
+                  </div>
+                </div>
+                <div class="numbers__slider_nav">
+                  <div class="numbers__slider__pagination slick-pagination"></div>
+                  <div class="numbers__slider__arrows slick-arrows"></div>
+                </div>
+              </div>
+              <div class="feature-block feature-block_rightside numbers__feature-block slider__feature-block">
+                <div class="feature-block__inner feature-block__inner_big">
+                  <h2 class="heading_center heading_h2 heading_feature heading_numbers"><span>Стандарт</span></h2>
+                  <div class="feature-block__info">
+                    <div class="feature-block__info_item">
+                      <i class="icon-room"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">1</span>
+                        <span>комната</span>
+                      </div>
+                    </div>
+                    <div class="feature-block__info_item">
+                      <i class="icon-icon--roomguests"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">2</span>
+                        <span>места</span>
+                      </div>
+                    </div>
+                    <div class="feature-block__info_item">
+                      <i class="icon-icon--roomsize"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">20</span>
+                        <span>м <sup>2</sup></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p>В отеле «<a href="#">Лазурная</a>» 214 стандартных номера. Из них 72 номера с двумя раздельными кроватями и 110 номеров с одной широкой французской кроватью.</p>
+                  <div class="feature-block__price"> от <span>4500</span> руб </div>
+                  <div class="sl-leftside__button feature-block__button feature-block__button_sing">
+                    <div class="feature-block__button_wrap">
+                      <a href="#" class="button button_wide button_blue" tabindex="0"> забронировать </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="container">
+            <div class="d-flex">
+              <div class="number">
+                <div class="number__info">
+                  <div class="number__image">
+                    <img src="./static/numbers/numbers-5.jpg" alt="">
+                  </div>
+                  <div class="number__text">
+                    <div class="number__text_wrap">
+                      <p>Стандартные номера располагаются с 3 по 16 этажи включительно. Уютный стандартный номер занимает площадь примерно 20 кв. м. Панорамные окна, из которых открывается захватывающий вид на море и город Сочи, по желанию гостей открываются. В отеле установлена единая система управления кондиционированием и вентиляцией, которая позволяет поддерживать в номерах комфортный температурный режим и всегда свежий воздух, независимо от того, какая сейчас погода в Сочи. </p>
+                    </div>
+                    <div class="feature-block feature-block_shadow">
+                      <div class="feature-block__inner feature-block__inner_small">
+                        <strong>Время заезда – 14:00</strong><br>
+                        <strong>Расчётный час – 12:00</strong>
+                        <p>Ранний заезд и поздний отъезд предоставляются по согласованию с администратором.</p>
+                        <p class="blue">Правила предоставления и пользования гостиничными услугами в отеле «Лазурная»</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="number__list">
+                <h4>Оснащение номера</h4>
+                <div class="list ">
+                  <div class="list__item">
+                    <i class="icon-shower"></i>
+                    <span>Душ / Ванная</span>
+                  </div>
+                  <div class="list__item">
+                    <i class="icon-conditioning"></i>
+                    <span>Кондиционер</span>
+                  </div>
+                  <div class="list__item">
+                    <i class="icon-bottles"></i>
+                    <span>Косметические принадлежности</span>
+                  </div>
+                  <div class="list__item">
+                    <i class="icon-refrigerator"></i>
+                    <span>Мини-холодильник</span>
+                  </div>
+                  <div class="list__item">
+                    <i class="icon-coffee"></i>
+                    <span>Набор чайной посуды и чайник</span>
+                  </div>
+                  <div class="list__item">
+                    <i class="icon-order"></i>
+                    <span>Полный пансион</span>
+                  </div>
+                  <div class="list__item">
+                    <i class="icon-safe"></i>
+                    <span>Сейф</span>
+                  </div>
+                  <div class="list__item">
+                    <i class="icon-tv"></i>
+                    <span>Телевидение</span>
+                  </div>
+                  <div class="list__item">
+                    <i class="icon-chair"></i>
+                    <span>Журнальный столик</span>
+                  </div>
+                  <div class="list__item">
+                    <i class="icon-phone-old"></i>
+                    <span>Телефон</span>
+                  </div>
+                </div>
+              </div>
+              <div class="number__moreinfo">
+                <div class="number__dif col_column3">
+                  <h4>Отличие от стандартного номера</h4>
+                  <p>Номера категории «Студия-Премиум» отличаются от стандартных номеров дизайном и размером помещения. Это одна просторная комната, которая удачным дизайнерским решением визуально разделена на две части: собственно спальню и гостиную. В отличие от стандартного номера во всех номерах «Студия-Премиум» есть большая двуспальная (французская) кровать и диван. Сейф установлен непосредственно в номере — в комнате для багажа, чего нет в стандартных номерах. Ванная комната в «Студии-Премиум» по размеру в два раза больше, чем в стандартном номере.</p>
+                  <h4>Удобства</h4>
+                  <h6>Ванная комната</h6>
+                  <p>В ванной комнате расположены белоснежная ванна с душем, туалетный столик с зеркалом во всю стену и санузел. Здесь для гостей приготовлены: фен, а также фирменный набор туалетных принадлежностей, включающий шампунь для волос, гель для душа, крем-бальзам для тела, мыло и шапочку для душа, и четыре набора полотенец: для лица, тела и ног. Смена и пополнение банных принадлежностей происходит ежедневно.</p>
+                  <h6>Окна и кондиционирование</h6>
+                  <p>Панорамные окна, из которых открывается захватывающий вид на море и город, по желанию гостей открываются. В Отеле установлена единая система управления кондиционированием и вентиляцией, которая позволяет поддерживать в номерах комфортный температурный режим и всегда свежий воздух, независемо от того, какая на данный момент погода в Сочи.</p>
+                  <h6>Проживание с детьми</h6>
+                  <p>По Вашему желанию в номере может быть установлена дополнительная кровать для ребенка до четырех лет. Кроватка для грудного ребенка устанавливается бесплатно. Полноценная кровать для подростка оплачивается по дополнительному тарифу. Установка третьего спального места в номерах категории «Студия-Премиум» не вносит дискомфорта. Администрация Отеля рекомендует номера этой категории для проживании с детьми.</p>
+                  <h6>Сейф и депозитные ячейки</h6>
+                  <p>Документы, ценные вещи, деньги и драгоценности гостям «Лазурной» рекомендуется хранить в сейфах или депозитных ячейках. Для этих целей можно использовать депозитную ячейку, расположенную в службе размещения или сейф, который находится непосредственно в номере категории «Студия-Премиум» в комнате для багажа. О желании воспользоваться депозитной ячейкой необходимо сообщить сотруднику службы размещения. Доступ к депозитной ячейке посторонних лиц исключен, сохранность денег и ценных вещей гарантирована. Пользоваться ячейкой, оставлять и забирать ценности можно неограниченное количество раз, сколько это будет необходимо гостю «Лазурная».</p>
+                  <p>Отдых в отеле «Лазурная» — лучший отдых на море!</p>
+                </div>
+                <div class="number__more hidden_mdlg"><span>Развернуть</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section_linetop">
+          <div class="section-hedsingle section-hedsingle_center section-hedsingle_simple"><span>Другие номера</span>
+            <h2>Другие номера</h2>
+          </div>
+          <div class="container gutters__lg">
+            <div class="row number_sl">
+              <div class="number__slider">
+                <div class="number__slider__item">
+                  <div class="number__slider_image">
+                    <img src="./static/numbers/other-number-1.jpg" alt="">
+                  </div>
+                  <div class="feature-block">
+                    <div class="feature-block__inner feature-block__inner_big">
+                      <h3 class="heading_underline heading_underline_center">Стандарт</h3>
+                      <div class="feature-block__price"> от <span>4500</span> руб </div>
+                      <div class="sl-leftside__button">
+                        <div class="feature-block__button_wrap">
+                          <a href="#" class="button button_wide button_transparent">
+                            <span>подробнее</span>
+                            <i class="icon-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="number__slider__item">
+                  <div class="number__slider_image">
+                    <img src="./static/numbers/other-number-2.jpg" alt="">
+                  </div>
+                  <div class="feature-block">
+                    <div class="feature-block__inner feature-block__inner_big">
+                      <h3 class="heading_underline heading_underline_center">Студия-Премиум</h3>
+                      <div class="feature-block__price"> от <span>8500</span> руб </div>
+                      <div class="sl-leftside__button">
+                        <div class="feature-block__button_wrap">
+                          <a href="#" class="button button_wide button_transparent">
+                            <span>подробнее</span>
+                            <i class="icon-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="number__slider__item">
+                  <div class="number__slider_image">
+                    <img src="./static/numbers/other-number-3.jpg" alt="">
+                  </div>
+                  <div class="feature-block">
+                    <div class="feature-block__inner feature-block__inner_big">
+                      <h3 class="heading_underline heading_underline_center">Президентский</h3>
+                      <div class="feature-block__price"> от <span>12500</span> руб </div>
+                      <div class="sl-leftside__button">
+                        <div class="feature-block__button_wrap">
+                          <a href="#" class="button button_wide button_transparent">
+                            <span>подробнее</span>
+                            <i class="icon-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="number__slider__item">
+                  <div class="number__slider_image">
+                    <img src="./static/numbers/other-number-3.jpg" alt="">
+                  </div>
+                  <div class="feature-block">
+                    <div class="feature-block__inner feature-block__inner_big">
+                      <h3 class="heading_underline heading_underline_center">Президентский</h3>
+                      <div class="feature-block__price"> от <span>12500</span> руб </div>
+                      <div class="sl-leftside__button">
+                        <div class="feature-block__button_wrap">
+                          <a href="#" class="button button_wide button_transparent">
+                            <span>подробнее</span>
+                            <i class="icon-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="number__slider__nav col_12">
+                <div class="number__slider__arrows slick-arrows"></div>
+                <div class="number__slider__pagination slick-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section_linetop section_linebt">
+          <div class="section-hedsingle section-hedsingle_center section-hedsingle_simple">Спецпредложения </div>
+          <div class="gutters__right">
+            <div class="wrap gutters__md leftside">
+              <div class="sl-leftside">
+                <div class="sl-leftside__item">
+                  <div class="sl-leftside__item_feature feature-block feature-block_leftside">
+                    <div class="feature-block__inner feature-block__inner_small">
+                      <h2 class="heading_center heading_h2 heading_feature">Весенний Body-Бум!</h2>
+                      <p>Готовимся к весне в SPA & Wellness Lazurnaya! Посещение бассейнов, аквазоны, банного комплекса, персональные тренировки. Душ Шарко и Кедровая бочка – в подарок. </p>
+                      <div class="sl-leftside__button">
+                        <div class="feature-block__button_wrap">
+                          <a href="#" class="button button_small button_transparent">
+                            <span>узнать условия</span>
+                            <i class="icon-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sl-leftside__item_image">
+                    <img src="./static/sl-leftside/boom-slide-1.jpg" alt="">
+                  </div>
+                </div>
+                <div class="sl-leftside__item">
+                  <div class="sl-leftside__item_feature feature-block feature-block_leftside">
+                    <div class="feature-block__inner feature-block__inner_small">
+                      <h2 class="heading_center heading_h2 heading_feature">Весенний Body-Бум!</h2>
+                      <p>Готовимся к весне в SPA & Wellness Lazurnaya! Посещение бассейнов, аквазоны, банного комплекса, персональные тренировки. Душ Шарко и Кедровая бочка – в подарок. </p>
+                      <div class="sl-leftside__button">
+                        <div class="feature-block__button_wrap">
+                          <a href="#" class="button button_small button_transparent">
+                            <span>узнать условия</span>
+                            <i class="icon-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sl-leftside__item_image">
+                    <img src="./static/sl-leftside/boom-slide-2.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="sl-leftside__arrows slick-arrows"></div>
+              <div class="sl-leftside__pagination slick-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="footer__inner">
+            <div id="map"></div>
+          </div>
+          <div class="footer__contacts">
+            <div class="contacts">
+              <div class="contacts__info">
+                <h5>Контакты</h5>
+              </div>
+              <div class="footer__wrap">
+                <div class="footer__wrap__col contacts__info__col">
+                  <i class="icon-place"></i>
+                  <div class="contacts__info__text">
+                    <strong>ОГК «Лазурная Отель и СПА»</strong> <span>расположен по адресу: 354024, </span>
+                    <span>г. Сочи, Курортный проспект, 103.</span>
+                  </div>
+                </div>
+                <div class="footer__wrap__col contacts__info__col hidden_md">
+                  <i class="icon-ring"></i>
+                  <div class="contacts__info__text">
+                    <strong>Отдел бронирования</strong> <span>Тел: <a href="tel:(862) 266-30-35" class="phonenum">(862) 266-30-35</a>, </span>
+                    <span>266-30-69, 266-31-81 </span>
+                  </div>
+                </div>
+                <div class="footer__wrap__col contacts__info__col">
+                  <i class="icon-phone"></i>
+                  <div class="contacts__info__text">
+                    <span><a href="tel:(862) 266-33-33" class="phonenum">(862) 266-33-33</a>, <a href="tel:(862) 266-30-05" class="phonenum">(862) 266-30-05</a></span>
+                    <span>Звонок бесплатный</span>
+                  </div>
+                </div>
+                <div class="footer__wrap__col contacts__info__col hidden_md">
+                  <i class="icon-phone opacity"></i>
+                  <div class="contacts__info__text">
+                    <span>Часы работы: с 09:00 до 21:00 </span>
+                    <span>E-mail: <a href="mailto:res@lazurnaya.ru">res@lazurnaya.ru</a> </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__middle">
+          <div class="container__pad">
+            <div class="footer__middle__wrap">
+              <div class="footer__middle__inner">
+                <div class="footer__logo">
+                  <a href="#">
+                    <img src="./static/footer/logo-footer.png" alt="">
+                  </a>
+                </div>
+                <div class="footer__desc">
+                  <p>ОГК «<a href="#">Лазурная Отель и СПА</a>» расположен в живописном уголке на берегу Черного моря. 286 комфортабельных номеров, шесть двухэтажных отдельно стоящих вилл, три ресторана, два кафе, два бара, ночной клуб, фитнес-центр, собственный пляж, бассейны: всё организовано для полноценного и разнообразного отдыха гостей в условиях элитного курортного отеля. </p>
+                </div>
+              </div>
+              <div class="footer__nav">
+                <ul>
+                  <li><a href="#">Отель</a></li>
+                  <li><a href="#">Номера и цены</a></li>
+                  <li><a href="#">Рестораны</a></li>
+                  <li><a href="#">Отдых и развлечения</a></li>
+                  <li><a href="#">Бизнес-туризм</a></li>
+                  <li><a href="#">SPA & Wellness</a></li>
+                  <li><a href="#">Специальные предложения</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="container__pad">
+            <div class="footer__bottom__inner">
+              <span class="copyright">© Официальный сайт ОГК «Лазурная Отель и СПА». <span>All rights reserved.</span>
+              </span>
+              <span class="text-align-right_md">Разработка и продвижение сайта <a href="#">НПП «Корнет»</a></span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./scripts/slick.min.js"></script>
+    <script src="./scripts/datepicker.min.js"></script>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>

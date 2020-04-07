@@ -20,9 +20,15 @@
             }
         }
         @media screen and (max-width: 768px) {
+            padding: 0 15px;
             &.rightside {
                 padding-right: 15px;
             }
+        }
+    }
+    &__lg {
+        @media screen and (max-width: 1199px) {
+            padding: 0 15px;
         }
     }
 }

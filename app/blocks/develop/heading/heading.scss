@@ -46,6 +46,10 @@ h4 {
     color: #89898d;
     margin-top: 0;
     margin-bottom: 24px;
+    margin-top: 55px;
+    &:first-of-type {
+        margin-top: 0;
+    }
     @media screen and (max-width: 1199px) {
         font-size: 22px;
     }
@@ -59,6 +63,13 @@ h5 {
         font-size: 22px;
     }
 }
+h6 {
+    font-size: 18px;
+    color: #89898d;
+    font-family: 'Proxima Nova Bold';
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
 .lh {
     line-height: 65px;
     @media screen and (max-width: 768px) {
@@ -66,12 +77,7 @@ h5 {
     }
 }
 .heading {
-    &_white {
-        color:#fff;
-    }
-    &_grey {
-        color: #89898d;
-    }
+    
     &_center {
         text-align: center;
     }
@@ -99,11 +105,20 @@ h5 {
             font-size: 22px;
         }
     }
+    &_white {
+        color:#fff;
+    }
+    &_grey {
+        color: #89898d;
+    }
+    &_blue {
+        color: #4ab0f0;
+    }
     &_feature {
         margin-bottom: 30px;
         span {
             display: block;
-            margin: 0 -15px;
+            margin: 0 -18px;
             @media screen and (max-width: 1199px) {
                 margin: 0;
             }
@@ -138,6 +153,12 @@ h5 {
         }
         @media screen and (max-width: 1199px) {
             margin-bottom: 20px;
+        }
+        &_center {
+            &:after {
+                margin-left: auto;
+                margin-right: auto;
+            }
         }
     }
     &_underline_left {

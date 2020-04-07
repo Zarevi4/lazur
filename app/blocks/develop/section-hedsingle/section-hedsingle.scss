@@ -6,6 +6,9 @@
     top: 70px;
     left: 0;
     position: absolute;
+    h2 {
+        line-height: 1;
+    }
     span {
         white-space: nowrap;
     }
@@ -26,6 +29,9 @@
         top: auto;
         line-height: 0.4;
         margin-bottom: 60px;
+        @media screen and (max-width: 1199px) {
+            margin-bottom: 30px;
+        }
         &.m-0 {
             margin-bottom: 0;
         }

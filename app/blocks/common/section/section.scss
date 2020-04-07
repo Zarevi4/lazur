@@ -31,6 +31,7 @@
         }
     }
     &_linetop {
+        position: relative;
         &:before {
             content: '';
             width: 1px;
@@ -187,5 +188,8 @@
         @media screen and (max-width: 1199px) {
             padding-bottom: 50px;
         }
+    }
+    &_numbers {
+        overflow: visible;
     }
 }

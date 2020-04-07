@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>Lazur</title>
+    <meta name="description" content="Simple demo app.">
+    <link rel="stylesheet" href="./styles/app.css">
+  </head>
+  <body>
+    <div class="app app_no_js">
+      <!-- BEMGO:symbol -->
+      <header class="header">
+        <div class="header__inner">
+          <div class="header__left header__col">
+            <div class="header__col_open header__col_menubtn">
+              <a href="#" class="menu-btn">
+                <i class="icon-menu"></i>
+              </a>
+            </div>
+            <div class="header__search">
+              <i class="icon-search"></i>
+            </div>
+          </div>
+          <div class="header__right header__col">
+            <div class="phone header__col_item">
+              <a href="tel:(862) 266-33-33">(862) 266-33-33</a>
+              <a href="tel:(862) 266-30-05">(862) 266-30-05</a>
+            </div>
+            <div class="switcher header__switcher">
+              <a href="#" class="switcher__item switcher__item_active">RU</a>
+              <a href="#" class="switcher__item">EN</a>
+            </div>
+            <div class="logo">
+              <a href="#">
+                <img class="logo__dec" src="./static/header/logo.jpg" alt="">
+                <img class="logo__mob" src="./static/header/logo-mob.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="header__menu header__menu_open">
+          <div class="header__inner header__menu__inner">
+            <div class="header__left header__col">
+              <div class="header__col_menubtn header__col_menubtn_active">
+                <a href="#" class="menu-btn">
+                  <i class="icon-menu"></i>
+                </a>
+              </div>
+            </div>
+            <div class="header__col">
+              <div class="header__col_close header__col_menubtn">
+                <a href="#" class="menu-close">
+                  <i class="icon-clear"></i>
+                </a>
+              </div>
+            </div>
+            <div class="header__nav">
+              <div class="header__nav__inner">
+                <ul class="nav">
+                  <li class="nav__item nav__item_active"><a href="#">Номера</a></li>
+                  <li class="nav__item"><a href="#">Коттеджи</a></li>
+                  <li class="nav__item"><a href="#">Цены</a></li>
+                  <li class="nav__item"><a href="#">Онлайн-оплата</a></li>
+                  <li class="nav__item"><a href="#">Рестораны</a></li>
+                  <li class="nav__item"><a href="#">Wellness и SPA</a></li>
+                  <li class="nav__item"><a href="#">Развлечения</a></li>
+                  <li class="nav__item"><a href="#">Номера</a></li>
+                  <li class="nav__item"><a href="#">Коттеджи</a></li>
+                  <li class="nav__item"><a href="#">Цены</a></li>
+                  <li class="nav__item"><a href="#">Онлайн-оплата</a></li>
+                  <li class="nav__item"><a href="#">Рестораны</a></li>
+                  <li class="nav__item"><a href="#">Wellness и SPA</a></li>
+                  <li class="nav__item"><a href="#">Развлечения</a></li>
+                  <li class="nav__item"><a href="#">Номера</a></li>
+                  <li class="nav__item"><a href="#">Коттеджи</a></li>
+                  <li class="nav__item"><a href="#">Цены</a></li>
+                  <li class="nav__item"><a href="#">Онлайн-оплата</a></li>
+                  <li class="nav__item"><a href="#">Рестораны</a></li>
+                  <li class="nav__item"><a href="#">Wellness и SPA</a></li>
+                  <li class="nav__item"><a href="#">Развлечения</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="content">
+        <div class="banner">
+          <div class="banner__image">
+            <img src="./static/app/img/numbers-slide.jpg" alt="">
+          </div>
+          <div class="banner__inner gutters">
+            <div class="banner__title">
+              <h1 class="banner__heading heading heading_white heading_center">Номера</h1>
+              <ul class="breadcrumbs">
+                <li><a href="#">Главная</a></li>
+                <li><span>Номера</span></li>
+              </ul>
+            </div>
+            <div class="banner__info">
+              <div class="banner__info__item banner__info__item_weather banner__info__item_underline">
+                <i class="icon-sun-cloud"></i>
+                <div> Сочи <div class="temp">+23<span class="temp__smaller">°C</span></div>
+                </div>
+              </div>
+              <div class="banner__info__item banner__info__item_virtual">
+                <i class="icon-360"></i>
+                <div>Виртуальный тур</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="booking">
+          <div class="container gutters">
+            <div class="booking__inner">
+              <div class="booking-form">
+                <div class="booking-form__item booking-form__item_bron">
+                  <span>Бронирование номеров</span>
+                  <span class="garant">Гарантированное заселение</span>
+                </div>
+                <div class="booking-form__item">
+                  <div class="booking-form__item__wrap booking-form__item__wrap_calendar">
+                    <label>
+                      <span>Заезд</span>
+                      <input type="text" class="start" placeholder="11.12.2019">
+                    </label>
+                  </div>
+                </div>
+                <div class="booking-form__item">
+                  <div class="booking-form__item__wrap booking-form__item__wrap_calendar">
+                    <label>
+                      <span>Выезд</span>
+                      <input type="text" class="end" placeholder="11.12.2019">
+                    </label>
+                  </div>
+                </div>
+                <div class="booking-form__item">
+                  <div class="booking-form__item__wrap booking-form__item__wrap_guest">
+                    <label>
+                      <span>Гости</span>
+                      <input type="number" placeholder="1">
+                    </label>
+                  </div>
+                </div>
+                <div class="booking-form__item">
+                  <div class="booking-form__item__wrap booking-form__item__wrap_special">
+                    <label>
+                      <span>Специальные</span>
+                      <input type="text" placeholder="Тарифы">
+                    </label>
+                  </div>
+                </div>
+                <div class="booking-form__item booking-form__item_btn">
+                  <input type="submit" class="button booking__button button_blue button_large" value="Найти номер">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section_numbers section_linetop">
+          <div class="container__pad">
+            <div class="numbers">
+              <div class="numbers__image">
+                <img src="./static/numbers/numbers-1.jpg" alt="">
+              </div>
+              <div class="feature-block feature-block_rightside numbers__feature-block">
+                <div class="feature-block__inner feature-block__inner_big">
+                  <h2 class="heading_center heading_h2 heading_feature heading_numbers"><span>Стандарт</span></h2>
+                  <div class="feature-block__info">
+                    <div class="feature-block__info_item">
+                      <i class="icon-room"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">1</span>
+                        <span>комната</span>
+                      </div>
+                    </div>
+                    <div class="feature-block__info_item">
+                      <i class="icon-icon--roomguests"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">2</span>
+                        <span>места</span>
+                      </div>
+                    </div>
+                    <div class="feature-block__info_item">
+                      <i class="icon-icon--roomsize"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">20</span>
+                        <span>м <sup>2</sup></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p>В отеле «<a href="#">Лазурная</a>» 214 стандартных номера. Из них 72 номера с двумя раздельными кроватями и 110 номеров с одной широкой французской кроватью.</p>
+                  <div class="feature-block__price"> от <span>4500</span> руб </div>
+                  <div class="sl-rightside__button feature-block__buttons">
+                    <a href="#" class="button button_wide button_transparent" tabindex="0"> подробнее <i class="icon-arrow-right"></i>
+                    </a>
+                    <a href="#" class="button button_wide button_blue" tabindex="0"> забронировать </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="numbers">
+              <div class="numbers__image">
+                <img src="./static/numbers/numbers-2.jpg" alt="">
+              </div>
+              <div class="feature-block feature-block_rightside numbers__feature-block">
+                <div class="feature-block__inner feature-block__inner_big">
+                  <h2 class="heading_center heading_h2 heading_feature heading_numbers"><span>Студия-Премиум</span></h2>
+                  <div class="feature-block__info">
+                    <div class="feature-block__info_item">
+                      <i class="icon-room"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">1</span>
+                        <span>комната</span>
+                      </div>
+                    </div>
+                    <div class="feature-block__info_item">
+                      <i class="icon-icon--roomguests"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">2</span>
+                        <span>места</span>
+                      </div>
+                    </div>
+                    <div class="feature-block__info_item">
+                      <i class="icon-icon--roomsize"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">20</span>
+                        <span>м <sup>2</sup></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p>Он представляет собой стильный однокомнатный номер площадью около 40 кв. м. В элитном отеле в Сочи ОГК «<a href="#">Лазурная Отель и СПА</a>» 21 номер такого класса.</p>
+                  <div class="feature-block__price"> от <span>8500</span> руб </div>
+                  <div class="sl-rightside__button feature-block__buttons">
+                    <a href="#" class="button button_wide button_transparent" tabindex="0"> подробнее <i class="icon-arrow-right"></i>
+                    </a>
+                    <a href="#" class="button button_wide button_blue" tabindex="0"> забронировать </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section_numbers section_linetop section_linebt">
+          <div class="section-hedsingle section-hedsingle_center section-hedsingle_simple">Виллы <h2>Виллы-апартаменты </h2>
+          </div>
+          <div class="container__pad">
+            <div class="numbers">
+              <div class="numbers__image">
+                <img src="./static/numbers/numbers-3.jpg" alt="">
+              </div>
+              <div class="feature-block feature-block_rightside numbers__feature-block">
+                <div class="feature-block__inner feature-block__inner_big">
+                  <h2 class="heading_center heading_h2 heading_feature"><span>Вилла «апартамент» с одной спальной комнатой</span></h2>
+                  <div class="feature-block__info">
+                    <div class="feature-block__info_item">
+                      <i class="icon-room"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">1</span>
+                        <span>комната</span>
+                      </div>
+                    </div>
+                    <div class="feature-block__info_item">
+                      <i class="icon-icon--roomguests"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">2</span>
+                        <span>места</span>
+                      </div>
+                    </div>
+                    <div class="feature-block__info_item">
+                      <i class="icon-icon--roomsize"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">20</span>
+                        <span>м <sup>2</sup></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p>Единственная в Отеле «Лазурная» вилла «апартамент» с одной спальной комнатой (коттедж номер 1904) представляет собой уютный двухэтажный коттедж с отдельным входом, площадью 75 кв. м.</p>
+                  <div class="feature-block__price"> от <span>30200</span> руб </div>
+                  <div class="sl-rightside__button feature-block__buttons">
+                    <a href="#" class="button button_wide button_transparent" tabindex="0"> подробнее <i class="icon-arrow-right"></i>
+                    </a>
+                    <a href="#" class="button button_wide button_blue" tabindex="0"> забронировать </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="numbers">
+              <div class="numbers__image">
+                <img src="./static/numbers/numbers-4.jpg" alt="">
+              </div>
+              <div class="feature-block feature-block_rightside numbers__feature-block">
+                <div class="feature-block__inner feature-block__inner_big">
+                  <h2 class="heading_center heading_h2 heading_feature heading_numbers"><span>Вилла «апартамент» с двумя спальными комнатами</span></h2>
+                  <div class="feature-block__info">
+                    <div class="feature-block__info_item">
+                      <i class="icon-room"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">1</span>
+                        <span>комната</span>
+                      </div>
+                    </div>
+                    <div class="feature-block__info_item">
+                      <i class="icon-icon--roomguests"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">2</span>
+                        <span>места</span>
+                      </div>
+                    </div>
+                    <div class="feature-block__info_item">
+                      <i class="icon-icon--roomsize"></i>
+                      <div class="feature-block__info_text">
+                        <span class="feature-block__info_big">20</span>
+                        <span>м <sup>2</sup></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p>Единственная в Отеле «Лазурная» вилла «апартамент» с одной спальной комнатой (коттедж номер 1904) представляет собой уютный двухэтажный коттедж с отдельным входом, площадью 75 кв. м.</p>
+                  <div class="feature-block__price"> от <span>30200</span> руб </div>
+                  <div class="sl-rightside__button feature-block__buttons">
+                    <a href="#" class="button button_wide button_transparent" tabindex="0"> подробнее <i class="icon-arrow-right"></i>
+                    </a>
+                    <a href="#" class="button button_wide button_blue" tabindex="0"> забронировать </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="footer__inner">
+            <div id="map"></div>
+          </div>
+          <div class="footer__contacts">
+            <div class="contacts">
+              <div class="contacts__info">
+                <h5>Контакты</h5>
+              </div>
+              <div class="footer__wrap">
+                <div class="footer__wrap__col contacts__info__col">
+                  <i class="icon-place"></i>
+                  <div class="contacts__info__text">
+                    <strong>ОГК «Лазурная Отель и СПА»</strong> <span>расположен по адресу: 354024, </span>
+                    <span>г. Сочи, Курортный проспект, 103.</span>
+                  </div>
+                </div>
+                <div class="footer__wrap__col contacts__info__col hidden_md">
+                  <i class="icon-ring"></i>
+                  <div class="contacts__info__text">
+                    <strong>Отдел бронирования</strong> <span>Тел: <a href="tel:(862) 266-30-35" class="phonenum">(862) 266-30-35</a>, </span>
+                    <span>266-30-69, 266-31-81 </span>
+                  </div>
+                </div>
+                <div class="footer__wrap__col contacts__info__col">
+                  <i class="icon-phone"></i>
+                  <div class="contacts__info__text">
+                    <span><a href="tel:(862) 266-33-33" class="phonenum">(862) 266-33-33</a>, <a href="tel:(862) 266-30-05" class="phonenum">(862) 266-30-05</a></span>
+                    <span>Звонок бесплатный</span>
+                  </div>
+                </div>
+                <div class="footer__wrap__col contacts__info__col hidden_md">
+                  <i class="icon-phone opacity"></i>
+                  <div class="contacts__info__text">
+                    <span>Часы работы: с 09:00 до 21:00 </span>
+                    <span>E-mail: <a href="mailto:res@lazurnaya.ru">res@lazurnaya.ru</a> </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__middle">
+          <div class="container__pad">
+            <div class="footer__middle__wrap">
+              <div class="footer__middle__inner">
+                <div class="footer__logo">
+                  <a href="#">
+                    <img src="./static/footer/logo-footer.png" alt="">
+                  </a>
+                </div>
+                <div class="footer__desc">
+                  <p>ОГК «<a href="#">Лазурная Отель и СПА</a>» расположен в живописном уголке на берегу Черного моря. 286 комфортабельных номеров, шесть двухэтажных отдельно стоящих вилл, три ресторана, два кафе, два бара, ночной клуб, фитнес-центр, собственный пляж, бассейны: всё организовано для полноценного и разнообразного отдыха гостей в условиях элитного курортного отеля. </p>
+                </div>
+              </div>
+              <div class="footer__nav">
+                <ul>
+                  <li><a href="#">Отель</a></li>
+                  <li><a href="#">Номера и цены</a></li>
+                  <li><a href="#">Рестораны</a></li>
+                  <li><a href="#">Отдых и развлечения</a></li>
+                  <li><a href="#">Бизнес-туризм</a></li>
+                  <li><a href="#">SPA & Wellness</a></li>
+                  <li><a href="#">Специальные предложения</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="container__pad">
+            <div class="footer__bottom__inner">
+              <span class="copyright">© Официальный сайт ОГК «Лазурная Отель и СПА». <span>All rights reserved.</span>
+              </span>
+              <span class="text-align-right_md">Разработка и продвижение сайта <a href="#">НПП «Корнет»</a></span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./scripts/slick.min.js"></script>
+    <script src="./scripts/datepicker.min.js"></script>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
