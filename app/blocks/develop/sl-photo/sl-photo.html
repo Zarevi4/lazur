@@ -2,12 +2,20 @@
     <div class="sl-photo">
         <div class="sl-photo__item">
             <div class="sl-photo__item_image">
-                <img src="@sl-photo/photo-1.jpg" alt="">
+                <picture>
+                    <source data-srcset="@sl-photo/photo-1.jpg" media="(min-width: 1200px)">
+                    <source data-srcset="@sl-photo/photo-1.jpg" media="(max-width: 1199px)">
+                    <img class="lazyload" data-srcset="@sl-photo/photo-1.jpg" alt="banner">
+                </picture>
             </div>
         </div>
         <div class="sl-photo__item"> 
             <div class="sl-photo__item_image">
-                <img src="@sl-photo/boom-slide-2.jpg" alt="">
+                <picture>
+                    <source data-srcset="@sl-photo/boom-slide-2.jpg" media="(min-width: 1200px)">
+                    <source data-srcset="@sl-photo/boom-slide-2.jpg" media="(max-width: 1199px)">
+                    <img class="lazyload" data-srcset="@sl-photo/boom-slide-2.jpg" alt="banner">
+                </picture>
             </div>
         </div>
     </div>

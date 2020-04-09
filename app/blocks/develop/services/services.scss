@@ -14,8 +14,13 @@
         max-width: 100px;
         width: 100%;
         h2 {
-            writing-mode: sideways-lr;
+            text-align: right;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
             line-height: 0.8;
+        }
+        @media screen and (max-width: 1199px) {
+            max-width: 47px;
         }
         @media screen and (max-width: 768px) {
             display: none;
@@ -74,6 +79,8 @@
     &__item {
         position: relative;
         height: 100%;
+        flex: 2 1 auto;
+        width: 100%;
         @media screen and (max-width: 768px) {
             width: 100%;
         }
@@ -85,7 +92,7 @@
             position: absolute;
             display: flex;
             align-items: flex-end;
-            justify-content: start;
+            justify-content: flex-start;
             bottom: 0;
             top: 0;
             left: 0;

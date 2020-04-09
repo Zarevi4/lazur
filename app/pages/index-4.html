@@ -23,7 +23,11 @@
 			<main class="content">
 				<div class="banner">
 					<div class="banner__image">
-						<img src="./static/app/img/numbers-slide.jpg" alt="">
+						<picture>
+							<source data-srcset="./static/app/img/numbers-slide.jpg" media="(min-width: 1200px)">
+							<source data-srcset="./static/app/img/numbers-slide-md.jpg" media="(max-width: 1199px)">
+							<img class="lazyload" data-srcset="./static/app/img/numbers-slide.jpg" alt="banner">
+						</picture>
 					</div>
 					<div class="banner__inner gutters">
 						<div class="banner__title">
@@ -57,11 +61,21 @@
                             <div class="numbers__image numbers__image_slider">
                                 <div class="numbers__slider">
                                     <div class="numbers__slider__item">
-                                        <img src="./static/numbers/numbers-1.jpg" alt="">
+                                        <picture>
+                                            <source data-srcset="./static/numbers/numbers-1.jpg" media="(min-width: 1199px)">
+                                            <source data-srcset="./static/numbers/numbers-1-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                                            <source data-srcset="./static/numbers/numbers-1-xs.jpg" media="(max-width: 768px)">
+                                            <img class="lazyload" data-srcset="./static/numbers/numbers-1.jpg" alt="apart1">
+                                        </picture>
                                     </div>
                                     
                                     <div class="numbers__slider__item">
-                                        <img src="./static/numbers/numbers-1.jpg" alt="">
+                                        <picture>
+                                            <source data-srcset="./static/numbers/numbers-1.jpg" media="(min-width: 1199px)">
+                                            <source data-srcset="./static/numbers/numbers-1-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                                            <source data-srcset="./static/numbers/numbers-1-xs.jpg" media="(max-width: 768px)">
+                                            <img class="lazyload" data-srcset="./static/numbers/numbers-1.jpg" alt="apart1">
+                                        </picture>
                                     </div>
                                 </div>
                                 <div class="numbers__slider_nav">
@@ -111,12 +125,20 @@
                     </div>
                 </div>
                 <div class="section">
-                    <div class="container">
+                    <div class="container__pad">
                         <div class="d-flex">
                             <div class="number">
                                 <div class="number__info">
                                     <div class="number__image">
-                                        <img src="./static/numbers/numbers-5.jpg" alt="">
+                                        <div class="number__image_360">
+                                            <i class="icon-360"></i>
+                                        </div>
+                                        <picture>
+                                            <source data-srcset="./static/numbers/numbers-5.jpg" media="(min-width: 1199px)">
+                                            <source data-srcset="./static/numbers/numbers-5-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                                            <source data-srcset="./static/numbers/numbers-5-md.jpg" media="(max-width: 768px)">
+                                            <img class="lazyload" data-srcset="./static/numbers/numbers-5.jpg" alt="number">
+                                        </picture>
                                     </div>
                                     <div class="number__text">
                                         <div class="number__text_wrap">
@@ -207,12 +229,17 @@
 					<div class="section-hedsingle section-hedsingle_center section-hedsingle_simple"><span>Другие номера</span>
 						<h2>Другие номера</h2>
                     </div>
-                    <div class="container gutters__lg">
+                    <div class="container__pad gutters__lg">
                         <div class="row number_sl">
                             <div class="number__slider">
                                 <div class="number__slider__item">
                                     <div class="number__slider_image">
-                                        <img src="./static/numbers/other-number-1.jpg" alt="">
+                                        <picture>
+                                            <source data-srcset="./static/numbers/other-number-1.jpg" media="(min-width: 1199px)">
+                                            <source data-srcset="./static/numbers/other-number-1.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                                            <source data-srcset="./static/numbers/other-number-1.jpg" media="(max-width: 768px)">
+                                            <img class="lazyload" data-srcset="./static/numbers/other-number-1.jpg" alt="other_number">
+                                        </picture>
                                     </div>
                                     <div class="feature-block">
                                         <div class="feature-block__inner feature-block__inner_big">
@@ -233,7 +260,12 @@
                                 </div>
                                 <div class="number__slider__item">
                                     <div class="number__slider_image">
-                                        <img src="./static/numbers/other-number-2.jpg" alt="">
+                                        <picture>
+                                            <source data-srcset="./static/numbers/other-number-2.jpg" media="(min-width: 1199px)">
+                                            <source data-srcset="./static/numbers/other-number-2.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                                            <source data-srcset="./static/numbers/other-number-2.jpg" media="(max-width: 768px)">
+                                            <img class="lazyload" data-srcset="./static/numbers/other-number-2.jpg" alt="other_number">
+                                        </picture>
                                     </div>
                                     <div class="feature-block">
                                         <div class="feature-block__inner feature-block__inner_big">
@@ -254,7 +286,12 @@
                                 </div>
                                 <div class="number__slider__item">
                                     <div class="number__slider_image">
-                                        <img src="./static/numbers/other-number-3.jpg" alt="">
+                                        <picture>
+                                            <source data-srcset="./static/numbers/other-number-3.jpg" media="(min-width: 1199px)">
+                                            <source data-srcset="./static/numbers/other-number-3.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                                            <source data-srcset="./static/numbers/other-number-3.jpg" media="(max-width: 768px)">
+                                            <img class="lazyload" data-srcset="./static/numbers/other-number-3.jpg" alt="other_number">
+                                        </picture>
                                     </div>
                                     <div class="feature-block">
                                         <div class="feature-block__inner feature-block__inner_big">
@@ -275,7 +312,12 @@
                                 </div>
                                 <div class="number__slider__item">
                                     <div class="number__slider_image">
-                                        <img src="./static/numbers/other-number-3.jpg" alt="">
+                                        <picture>
+                                            <source data-srcset="./static/numbers/other-number-3.jpg" media="(min-width: 1199px)">
+                                            <source data-srcset="./static/numbers/other-number-3.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                                            <source data-srcset="./static/numbers/other-number-3.jpg" media="(max-width: 768px)">
+                                            <img class="lazyload" data-srcset="./static/numbers/other-number-3.jpg" alt="other_number">
+                                        </picture>
                                     </div>
                                     <div class="feature-block">
                                         <div class="feature-block__inner feature-block__inner_big">

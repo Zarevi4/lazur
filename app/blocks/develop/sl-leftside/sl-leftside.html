@@ -17,7 +17,12 @@
                 </div>
             </div> 
             <div class="sl-leftside__item_image">
-                <img src="@sl-leftside/boom-slide-1.jpg" alt="">
+                <picture>
+                    <source data-srcset="@sl-leftside/boom-slide-1.jpg" media="(min-width: 1199px)">
+                    <source data-srcset="@sl-leftside/boom-slide-1-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                    <source data-srcset="@sl-leftside/boom-slide-1-xs.jpg" media="(max-width: 768px)">
+                    <img srcset="@sl-leftside/boom-slide-1-xs.jpg" data-srcset="@sl-leftside/boom-slide-1.jpg" alt="My default image" class="lazyload">
+                </picture>
             </div>
         </div>
         <div class="sl-leftside__item">
@@ -37,7 +42,12 @@
                 </div>
             </div> 
             <div class="sl-leftside__item_image">
-                <img src="@sl-leftside/boom-slide-2.jpg" alt="">
+                <picture>
+                    <source data-srcset="@sl-leftside/boom-slide-2.jpg" media="(min-width: 1199px)">
+                    <source data-srcset="@sl-leftside/boom-slide-2-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                    <source data-srcset="@sl-leftside/boom-slide-2-xs.jpg" media="(max-width: 768px)">
+                    <img srcset="@sl-leftside/boom-slide-2-xs.jpg" data-srcset="@sl-leftside/boom-slide-2.jpg" alt="My default image" class="lazyload">
+                </picture>
             </div>
         </div>
     </div>

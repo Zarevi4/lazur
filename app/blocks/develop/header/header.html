@@ -7,7 +7,11 @@
 				</a>
 			</div>
 			<div class="header__search">
-				<i class="icon-search"></i>
+				<i class="icon-search search_btn"></i>
+				<div class="header__search__wrap">
+					<input type="text" placeholder="Поиск">
+					<input type="submit" class="button booking__button button_blue" value="Поиск">
+				</div>
 			</div>
 		</div>
 		<div class="header__right header__col">
@@ -21,8 +25,11 @@
 			</div>
 			<div class="logo">
 				<a href="#">
-					<img class="logo__dec" src="@header/logo.jpg" alt="">
-					<img class="logo__mob" src="@header/logo-mob.png" alt="">
+					<picture>
+						<source srcset="@header/logo.jpg" media="(min-width: 1200px)">
+						<source srcset="@header/logo-mob.png" media="(max-width: 1199px)">
+						<img srcset="@header/logo.jpg" alt="logo">
+					</picture>
 				</a>
 			</div>
 		</div>

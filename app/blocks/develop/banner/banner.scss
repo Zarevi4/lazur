@@ -1,5 +1,8 @@
 .banner {
     position: relative;
+    @media screen and (max-width: 768px) {
+        padding-top: 50px;
+    }
     &__image {
         img {
             width: 100%;
@@ -35,6 +38,10 @@
         }
         @media screen and (max-width: 1199px) {
             max-width: 430px;
+            top: 40%;
+        }
+        @media screen and (max-width: 767px) {
+            top: 35%;
         }
     }
     &__info {

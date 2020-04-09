@@ -1,4 +1,69 @@
-@import 'assets/stylesheet.css';
+@font-face {
+	font-family: 'Georgia';
+	src: url('fonts/Georgia.eot');
+	src: local('Georgia'), local('Georgia'),
+		url('fonts/Georgia.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Georgia.woff') format('woff'),
+		url('fonts/Georgia.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Georgia Bold';
+	src: url('fonts/Georgia-Bold.eot');
+	src: local('Georgia Bold'), local('Georgia Bold'),
+		url('fonts/Georgia-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Georgia-Bold.woff') format('woff'),
+		url('fonts/Georgia-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Georgia It';
+	src: url('fonts/Georgia-Italic.eot');
+	src: local('Georgia Italic'), local('Georgia Italic'),
+		url('fonts/Georgia-Italic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Georgia-Italic.woff') format('woff'),
+		url('fonts/Georgia-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Reg';
+	src: url('fonts/ProximaNova-Regular.eot');
+	src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+		url('fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/ProximaNova-Regular.woff') format('woff'),
+		url('fonts/ProximaNova-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Light';
+	src: url('fonts/ProximaNova-Light.eot');
+	src: local('Proxima Nova Light'), local('ProximaNova-Light'),
+		url('fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/ProximaNova-Light.woff') format('woff'),
+		url('fonts/ProximaNova-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url('fonts/ProximaNova-Semibold.eot');
+	src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+		url('fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/ProximaNova-Semibold.woff') format('woff'),
+		url('fonts/ProximaNova-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+// @import 'assets/stylesheet.css';
 html {
 	width: 100%;
 	height: 100%;
@@ -111,11 +176,19 @@ input, textarea, button, a {
 .d-flex {
 	display: flex;
     flex-wrap: wrap;
-    align-items: start;
+    align-items: flex-start;
 }
 .col_9.p-0 {
 	padding: 0;
 }
 .col_12.p-0 {
 	padding: 0;
+}
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 400ms;
 }

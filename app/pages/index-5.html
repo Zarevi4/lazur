@@ -23,7 +23,11 @@
 			<main class="content">
 				<div class="banner">
 					<div class="banner__image">
-						<img src="./static/app/img/typo-slide.jpg" alt="">
+						<picture>
+							<source data-srcset="./static/app/img/typo-slide.jpg" media="(min-width: 1200px)">
+							<source data-srcset="./static/app/img/typo-slide.jpg" media="(max-width: 1199px)">
+							<img class="lazyload" data-srcset="./static/app/img/typo-slide.jpg" alt="banner">
+						</picture>
 					</div>
 					<div class="banner__inner gutters">
 						<div class="banner__title">

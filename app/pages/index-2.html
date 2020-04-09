@@ -23,7 +23,11 @@
 			<main class="content">
 				<div class="banner">
 					<div class="banner__image">
-						<img src="./static/app/img/typo-slide.jpg" alt="">
+						<picture>
+							<source data-srcset="./static/app/img/typo-slide.jpg" media="(min-width: 1200px)">
+							<source data-srcset="./static/app/img/typo-slide.jpg" media="(max-width: 1199px)">
+							<img class="lazyload" data-srcset="./static/app/img/typo-slide.jpg" alt="banner">
+						</picture>
 					</div>
 					<div class="banner__inner gutters">
 						<div class="banner__title">
@@ -62,11 +66,21 @@
 							<div class="images-block">
 								<div class="images-block__wrap">
 									<div class="images-block__bg">
-										<img src="./static/reviews/reviews-1.jpg" alt="">
+										<picture>
+											<source data-srcset="./static/reviews/reviews-1.jpg" media="(min-width: 1199px)">
+											<source data-srcset="./static/reviews/reviews-1-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+											<source data-srcset="./static/reviews/reviews-1-xs.jpg" media="(max-width: 768px)">
+											<img class="lazyload" data-srcset="./static/reviews/reviews-1.jpg" alt="My default image">
+										</picture>
 									</div>
 								</div>
 								<div class="images-block__img">
-									<img src="./static/reviews/reviews-2.jpg" alt="">
+									<picture>
+										<source data-srcset="./static/reviews/reviews-2.jpg" media="(min-width: 1199px)">
+										<source data-srcset="./static/reviews/reviews-2-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+										<source data-srcset="./static/reviews/reviews-2-xs.jpg" media="(max-width: 768px)">
+										<img class="lazyload" data-srcset="./static/reviews/reviews-2.jpg" alt="My default image">
+									</picture>
 								</div>
 							</div>
 							<div class="reviews__wrap">
@@ -114,7 +128,12 @@
 									</div>
 								</div> 
 								<div class="sl-leftside__item_image">
-									<img src="./static/sl-leftside/resto-1.jpg" alt="">
+									<picture>
+										<source data-srcset="./static/sl-leftside/resto-1.jpg" media="(min-width: 1199px)">
+										<source data-srcset="./static/sl-leftside/resto-1-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+										<source data-srcset="./static/sl-leftside/resto-1-xs.jpg" media="(max-width: 768px)">
+										<img class="lazyload" data-srcset="./static/sl-leftside/resto-1.jpg" alt="banner">
+									</picture>
 								</div>
 							</div>
 							<div class="sl-leftside__item">
@@ -134,7 +153,12 @@
 									</div>
 								</div> 
 								<div class="sl-leftside__item_image">
-									<img src="./static/sl-leftside/resto-1.jpg" alt="">
+									<picture>
+										<source data-srcset="./static/sl-leftside/resto-1.jpg" media="(min-width: 1199px)">
+										<source data-srcset="./static/sl-leftside/resto-1-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+										<source data-srcset="./static/sl-leftside/resto-1-xs.jpg" media="(max-width: 768px)">
+										<img class="lazyload" data-srcset="./static/sl-leftside/resto-1.jpg" alt="banner">
+									</picture>
 								</div>
 							</div>
 						</div>
@@ -151,7 +175,11 @@
 							<div class="news__slider">
 								<div class="news__slider__item">
 									<div class="imgtext-block">
-										<img src="./static/news/hotel-1.jpg" alt="">
+										<picture>
+											<source data-srcset="./static/news/hotel-1.jpg" media="(min-width: 1200px)">
+											<source data-srcset="./static/news/hotel-1.jpg" media="(max-width: 1199px)">
+											<img class="lazyload" data-srcset="./static/news/hotel-1.jpg" alt="banner">
+										</picture>
 										<div class="imgtext-block__desc">
 											<h4 class="heading_grey">SPA & Welness Lazurnaya</h4>
 											<p>Эксклюзивный спа-центр премиум-класса с потрясающим видом на море.
@@ -161,7 +189,11 @@
 								</div>
 								<div class="news__slider__item">
 									<div class="imgtext-block">
-										<img src="./static/news/hotel-2.jpg" alt="">
+										<picture>
+											<source data-srcset="./static/news/hotel-2.jpg" media="(min-width: 1200px)">
+											<source data-srcset="./static/news/hotel-2.jpg" media="(max-width: 1199px)">
+											<img class="lazyload" data-srcset="./static/news/hotel-2.jpg" alt="banner">
+										</picture>
 										<div class="imgtext-block__desc">
 											<h4 class="heading_grey">Пляж</h4>
 											<p>Обновленный частный пляж, оснащенный всем необходимым для отличного отдыха.
@@ -171,7 +203,11 @@
 								</div>
 								<div class="news__slider__item">
 									<div class="imgtext-block">
-										<img src="./static/news/hotel-3.jpg" alt="">
+										<picture>
+											<source data-srcset="./static/news/hotel-3.jpg" media="(min-width: 1200px)">
+											<source data-srcset="./static/news/hotel-3.jpg" media="(max-width: 1199px)">
+											<img class="lazyload" data-srcset="./static/news/hotel-3.jpg" alt="banner">
+										</picture>
 										<div class="imgtext-block__desc">
 											<h4 class="heading_grey">Бассейн</h4>
 											<p>3 активные зоны, 1000 кв.метров водной глади.
@@ -181,12 +217,6 @@
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				
-				<div class="app__layout">
-					<div class="content__cards">
-						
 					</div>
 				</div>
 			</main>

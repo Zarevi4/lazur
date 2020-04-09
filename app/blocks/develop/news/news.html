@@ -2,7 +2,12 @@
     <div class="news__slider">
         <div class="news__slider__item">
             <div class="imgtext-block">
-                <img src="@news/new-1.jpg" alt="">
+                <picture>
+                    <source data-srcset="@news/new-1.jpg" media="(min-width: 1199px)">
+                    <source data-srcset="@news/new-1-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                    <source data-srcset="@news/new-1-xs.jpg" media="(max-width: 768px)">
+                    <img class="lazyload" data-srcset="@news/new-1.jpg" alt="news">
+                </picture>
                 <div class="imgtext-block__desc">
                     <div class="imgtext-block__time">
                         <span>05.02.2019</span>
@@ -14,7 +19,12 @@
         </div>
         <div class="news__slider__item">
             <div class="imgtext-block">
-                <img src="@news/new-2.jpg" alt="">
+                <picture>
+                    <source data-srcset="@news/new-2.jpg" media="(min-width: 1199px)">
+                    <source data-srcset="@news/new-2-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                    <source data-srcset="@news/new-2-xs.jpg" media="(max-width: 768px)">
+                    <img class="lazyload" data-srcset="@news/new-2.jpg" alt="news">
+                </picture>
                 <div class="imgtext-block__desc">
                     <div class="imgtext-block__time">
                         <span>05.02.2019</span>
@@ -28,7 +38,12 @@
         </div>
         <div class="news__slider__item">
             <div class="imgtext-block">
-                <img src="@news/new-3.jpg" alt="">
+                <picture>
+                    <source data-srcset="@news/new-3.jpg" media="(min-width: 1199px)">
+                    <source data-srcset="@news/new-3-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                    <source data-srcset="@news/new-3-xs.jpg" media="(max-width: 768px)">
+                    <img class="lazyload" data-srcset="@news/new-3.jpg" alt="news">
+                </picture>
                 <div class="imgtext-block__desc">
                     <div class="imgtext-block__time">
                         <span>05.02.2019</span>

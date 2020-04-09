@@ -18,19 +18,43 @@
 
 			<!-- BEMGO:symbol -->
 
-			@@include( 'develop/header/header.html', {
-				"slogan": "Hello everyone!"
-			})
+			@@include( 'develop/header/header.html')
 
 			<main class="content">
-				@@include( 'develop/banner/banner.html', {
-					"banner": "@app/img/home-slide.jpg",
-					"title": "Выбирайте лучшее <br>в Сочи"
-				})
+				<div class="banner">
+					<div class="banner__image">
+						<picture>
+							<source data-srcset="./static/app/img/home-slide.jpg" media="(min-width: 1200px)">
+							<source data-srcset="./static/app/img/home-slide-md.jpg" media="(max-width: 1199px)">
+							<img data-srcset="./static/app/img/home-slide.jpg"  alt="banner" class="lazyload">
+						</picture>
+					</div>
+					<div class="banner__inner gutters">
+						<div class="banner__title">
+							<h1 class="h1 banner__heading heading heading_white heading_center">Выбирайте лучшее <br>в Сочи</h1>
+						</div>
+						<div class="banner__info">
+							<div class="banner__info__item banner__info__item_weather banner__info__item_underline">
+								<i class="icon-sun-cloud"></i>
+								<div>
+									Сочи
+									<div class="temp">+23<span class="temp__smaller">°C</span></div>
+								</div>
+							</div>
+							<div class="banner__info__item banner__info__item_virtual">
+								<i class="icon-360"></i>
+								<div>Виртуальный
+									тур</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
 				@@include( 'develop/booking/booking.html')
-				<div class="section section_line gutters__right">
-					@@include( 'develop/sl-leftside/sl-leftside.html')
+				<div class="section section_line">
+					<div class="gutters__right">
+						@@include( 'develop/sl-leftside/sl-leftside.html')
+					</div>
 				</div>
 				@@include( 'develop/feature-banner/feature-banner.html')
 				<div class="section section_apartment gutters__left section__pdlg">
@@ -56,11 +80,6 @@
 							<a href="#"><span>ВСЕ НОВОСТИ</span> <i class="icon-arrow-right"></i></a>
 						</div>
 						@@include( 'develop/news/news.html')
-					</div>
-				</div>
-				<div class="app__layout">
-					<div class="content__cards">
-						
 					</div>
 				</div>
 			</main>

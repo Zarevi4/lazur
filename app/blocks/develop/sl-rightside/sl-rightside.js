@@ -12,7 +12,7 @@ $('.sl-rightside').slick({
     appendArrows: $('.rightside .slick-arrows'),
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 769,
         settings: {
           arrows: false,
           dots: true

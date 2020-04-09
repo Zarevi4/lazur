@@ -1,8 +1,12 @@
 <div class="services">
     <div class="services__maincol services__col">
         <div class="services__item">
-            <img class="hidden_xs" src="@services/services-1.jpg" alt="">
-            <img class="hidden_lg" src="@services/services-1-mb.jpg" alt="">
+            <picture>
+                <source data-srcset="@services/services-1.jpg" media="(min-width: 1199px)">
+                <source data-srcset="@services/services-1-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                <source data-srcset="@services/services-1-mb.jpg" media="(max-width: 768px)">
+                <img class="lazyload" data-srcset="@services/services-1.jpg" alt="My default image">
+            </picture>
             <a href="#" class="services__item__title">
                 <h4 class="heading_white heading_h3 heading_services">Развлечение и отдых</h4>
             </a>
@@ -14,7 +18,12 @@
                 <h2 class="heading_h2">Наши услуги</h2>
             </div>
             <div class="services__item">
-                <img src="@services/services-2.jpg" alt="">
+                <picture>
+                    <source data-srcset="@services/services-2.jpg" media="(min-width: 1199px)">
+                    <source data-srcset="@services/services-2-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                    <source data-srcset="@services/services-2-xs.jpg" media="(max-width: 768px)">
+                    <img class="lazyload" data-srcset="@services/services-1.jpg" alt="My default image">
+                </picture>
                 <a href="#" class="services__item__title">
                     <h4 class="heading_white heading_h3 heading_services">Рестораны</h4>
                 </a>
@@ -22,7 +31,12 @@
         </div>
         <div class="services__col services__wrap__col services__wrap__col2">
             <div class="services__item">
-                <img src="@services/services-5.jpg" alt="">
+                <picture>
+                    <source data-srcset="@services/services-5.jpg" media="(min-width: 1199px)">
+                    <source data-srcset="@services/services-5-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                    <source data-srcset="@services/services-5-xs.jpg" media="(max-width: 768px)">
+                    <img class="lazyload" data-srcset="@services/services-5.jpg" alt="My default image">
+                </picture>
                 <a href="#" class="services__item__title">
                     <h4 class="heading_white heading_h3 heading_services">SPA & Wellness Lazurnaya</h4>
                 </a>
@@ -30,7 +44,12 @@
         </div>
         <div class="services__col services__wrap__col3">
             <div class="services__item">
-                <img src="@services/services-3.jpg" alt="">
+                <picture>
+                    <source data-srcset="@services/services-3.jpg" media="(min-width: 1199px)">
+                    <source data-srcset="@services/services-3-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                    <source data-srcset="@services/services-3-xs.jpg" media="(max-width: 768px)">
+                    <img class="lazyload" data-srcset="@services/services-3.jpg" alt="My default image">
+                </picture>
                 <a href="#" class="services__item__title">
                     <h4 class="heading_white heading_h3 heading_services">Банкеты</h4>
                 </a>
@@ -38,7 +57,12 @@
         </div>
         <div class="services__col services__wrap__col2">
             <div class="services__item">
-                <img src="@services/services-4.jpg" alt="">
+                <picture>
+                    <source data-srcset="@services/services-4.jpg" media="(min-width: 1199px)">
+                    <source data-srcset="@services/services-4-md.jpg" media="(min-width: 768px) and (max-width: 1199px)">
+                    <source data-srcset="@services/services-4-xs.jpg" media="(max-width: 768px)">
+                    <img class="lazyload" data-srcset="@services/services-4.jpg" alt="My default image">
+                </picture>
                 <a href="#" class="services__item__title">
                     <h4 class="heading_white heading_h3 heading_services">Бизнес-туризм</h4>
                 </a>

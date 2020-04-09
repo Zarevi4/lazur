@@ -25,4 +25,8 @@ jQuery(document).ready(function($) {
 				
 			}
 		});
+
+	$('.search_btn').click(function() {
+		$(this).parent().find('.header__search__wrap').toggleClass('header__search__wrap_active');
+	})
 });
